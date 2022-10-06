@@ -1,6 +1,7 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import NavTabs from "./components/NavTabs";
+import PortfolioContainer from "./components/pages/Home";
 
-const App = () => <PortfolioContainer />;
+const App = () => <NavTabs />;
 
 export default App;

@@ -1,0 +1,57 @@
+* {
+    max-width: 100%;
+    /* border: 1px solid red; */
+    scroll-behavior: smooth;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  body {
+    background-color: #f8ede3;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    background-color: #464F41;
+    height: 100px;
+    position: sticky;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+  }
+  #title a{
+    text-decoration: none;
+    color: #f8ede3;
+  }
+  
+  header h1 {
+    padding-left: 30px;
+    width: 500px;
+  }
+  
+  nav {
+    justify-content: end;
+    width: 100%;
+  }
+  
+  nav ul {
+    position: relative;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    display: inline-flex;
+    padding: 15px;
+    font-size: large;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #BFCBA8;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
