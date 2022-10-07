@@ -1,0 +1,30 @@
+#backgroundImg {
+    background-image: url("../images/trees.jpg") ;
+    height: 800px;
+  }
+  
+  
+  #about-me {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #798777;
+  }
+  
+  #about-h1 {
+    position: relative;
+    color: #BFCBA8;
+    margin: 35px 0px;
+  }
+  
+  .sarah-img {
+    border-radius: 30%;
+    border: 2px solid #464F41;
+    height: 302px;
+    margin-bottom: 50px;
+  }
+  
+  #info-text {
+    font-size: larger;
+    color: #f8ede3;
+  }

@@ -47,11 +47,7 @@
     font-size: large;
   }
   
-  nav ul li a {
+  a.nav-link {
     text-decoration: none;
     color: #BFCBA8;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
   }

@@ -1,7 +1,20 @@
+/** @format */
+
 import React from "react";
 import NavTabs from "./components/NavTabs";
-import PortfolioContainer from "./components/pages/Home";
+import Home from "./components/pages/Home";
+import Footer from "./components/pages/Footer";
 
-const App = () => <NavTabs />;
+function App() {
+  return (
+    <>
+      <NavTabs />
+      <section id="about-me">
+        <Home />
+      </section>
+      <Footer />
+    </>
+  );
+}
 
 export default App;
