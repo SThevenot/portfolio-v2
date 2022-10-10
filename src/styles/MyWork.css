@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  background-color: var(--forest6);
+  background-color: var(--forest4);
 }
 
 #page2 {
@@ -17,6 +17,10 @@
 #my-work img {
   border: 2px solid var(--forest3);
   width: 400px;
+}
+
+img:hover {
+  box-shadow: 2px 2px 5px var(--forest1);
 }
 
 #my-work h1 {
@@ -30,6 +34,10 @@
   border: 2px solid var(--forest3);
   color: var(--forest5);
   background-color: var(--forest2);
+}
+
+#my-work a:hover {
+  box-shadow: 2px 2px 5px var(--forest1);
 }
 
 /* p elements */

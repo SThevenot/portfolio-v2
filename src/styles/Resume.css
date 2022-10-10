@@ -1,28 +1,33 @@
+/** @format */
+
 #resume {
-    height: 190px;
-    text-align: center;
-    background-color: var(--forest5);
+  height: 190px;
+  text-align: center;
+  background-color: var(--forest3);
 }
 
 #resume h1 {
-    padding: 15px;
+  padding: 15px;
+  color: var(--forest7);
 }
 
 #resume button {
-    width: 20%;
-    background-color: var(--forest2);
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
+  width: 20%;
+  background-color: var(--forest2);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 #resume button:hover {
-    background-color: var(--forest3);
+  background-color: var(--forest4);
+  box-shadow: 2px 2px 5px var(--forest1);
 }
 
 #resume a {
-    text-decoration: none;
-    color: var(--forest7);
+  text-decoration: none;
+  color: var(--forest7);
 }
