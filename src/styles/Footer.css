@@ -11,10 +11,10 @@ footer div {
     color: white;
   }
   
-  button {
+  a {
     background-color: #d0c9c0;
     border: none;
-    color: white;
+    color: green;
     margin: 30px 70px;
     font-size: 30px;
     cursor: pointer;
