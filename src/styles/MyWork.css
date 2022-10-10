@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  background-color: #E9E5D6;
+  background-color: var(--forest6);
 }
 
 #page2 {
@@ -15,27 +15,27 @@
 }
 
 #my-work img {
-  border: 2px solid #a2b29f;
+  border: 2px solid var(--forest3);
   width: 400px;
 }
 
 #my-work h1 {
   padding-bottom: 10px;
-  color: #464F41;
+  color: var(--forest1);
 }
 
 /* divs */
 
 #my-work a {
-  border: 2px solid #a2b29f;
-  color: #d0c9c0;
-  background-color: #798777;
+  border: 2px solid var(--forest3);
+  color: var(--forest5);
+  background-color: var(--forest2);
 }
 
 /* p elements */
 
 #my-work p {
-  color: #798777;
+  color: var(--forest2);
   font-size: large;
   text-align: center;
   padding: 10px;

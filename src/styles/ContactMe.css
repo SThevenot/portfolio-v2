@@ -6,12 +6,12 @@ input[type="email"] {
   display: inline-block;
   box-sizing: border-box;
   border-radius: 3px;
-  border: 2px solid #798777;
+  border: 2px solid var(--forest2);
   margin: 10px 0;
 }
 
 #form-section {
-  background-color: #a2b29f;
+  background-color: var(--forest3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@ form {
   flex-direction: column;
   margin: 30px 600px;
   padding: 10px;
-  background-color: #798777;
+  background-color: var(--forest2);
   width: 500px;
   align-items: center;
   border-radius: 4px;
@@ -31,12 +31,12 @@ form {
 
 label {
   padding: 15px 0;
-  color: #f8ede3;
+  color: var(--forest7);
 }
 
 textarea {
   width: 250px;
-  border: 2px solid #99a799;
+  border: 2px solid var(--forest1);
   border-radius: 3px;
 }
 
@@ -46,8 +46,8 @@ input {
 
 #form-section button {
   width: 100%;
-  background-color: #d0c9c0;
-  color: white;
+  background-color: var(--forest5);
+  color: var(--forest7);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -55,5 +55,5 @@ input {
 }
 
 #form-section button:hover {
-  background-color: #f8ede3;
+  background-color: var(--forest3);
 }

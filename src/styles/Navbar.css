@@ -1,3 +1,13 @@
+:root {
+  --forest1: #333d29;
+  --forest2: #414833;
+  --forest3: #656d4a;
+  --forest4: #a4ac86;
+  --forest5: #c2c5aa;
+  --forest6: #f0ead2;
+  --forest7: #f8ede3;
+}
+
 * {
     max-width: 100%;
     /* border: 1px solid red; */
@@ -6,14 +16,14 @@
   }
 
   body {
-    background-color: #EFEAD8;
+    background-color: var(--forest6);
     padding: 0;
     margin: 0;
   }
 
   header {
     display: flex;
-    background-color: #464F41;
+    background-color: var(--forest1);
     height: 100px;
     position: sticky;
     width: 100%;
@@ -22,7 +32,7 @@
   }
   #title a{
     text-decoration: none;
-    color: #f8ede3;
+    color: var(--forest7);
   }
   
   header h1 {
@@ -49,5 +59,5 @@
   
   a.nav-link {
     text-decoration: none;
-    color: #BFCBA8;
+    color: var(--forest4);
   }

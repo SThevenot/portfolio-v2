@@ -1,5 +1,5 @@
 footer div {
-    background-color: #EFEAD8;
+    background-color: var(--forest6);
     height: 10px;
     text-align: center;
     display: flex;
@@ -9,18 +9,17 @@ footer div {
   
   footer a {
     text-decoration: none;
-    color: #D0C9C0;
+    color: var(--forest5);
   }
   
   footer button {
-    background-color: #EFEAD8;
+    background-color: var(--forest6);
     border: none;
-    color: pink;
     margin: 30px 70px;
     font-size: 40px;
     cursor: pointer;
   }
 
   footer a:hover {
-    color: #6D8B74;
+    color: var(--forest2);
   }
