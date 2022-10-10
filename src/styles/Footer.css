@@ -1,21 +1,26 @@
 footer div {
-    background-color: #d0c9c0;
-    height: 100px;
+    background-color: #EFEAD8;
+    height: 10px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    height: 140px;
   }
   
   footer a {
     text-decoration: none;
-    color: white;
+    color: #D0C9C0;
   }
   
-  a {
-    background-color: #d0c9c0;
+  footer button {
+    background-color: #EFEAD8;
     border: none;
-    color: green;
+    color: pink;
     margin: 30px 70px;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
+  }
+
+  footer a:hover {
+    color: #6D8B74;
   }

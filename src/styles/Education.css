@@ -1,0 +1,22 @@
+#education {
+    padding: 50px 0;
+    color: #f8ede3;
+    background-color: #A2B29F;
+    text-align: center;
+  }
+  
+  #edDiv {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #education h1 {
+    color: #BFCBA8;
+  }
+  
+  #education dl {
+    margin-left: 20px;
+    font-size: larger;
+  }
+  
