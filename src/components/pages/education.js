@@ -3,7 +3,7 @@ import "../../styles/Education.css"
 
 export default function Education() {
     return (
-        <div id="edDiv" class="container-fluid">
+        <div id="edDiv" className="container-fluid">
         <dl>
           <h1>Education</h1>
           <dt>Rochester High School</dt>
