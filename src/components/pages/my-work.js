@@ -6,7 +6,6 @@ import brewfinder from "../../images/brewfinder.png";
 import skz from "../../images/skz-site.png";
 import landingPage from "../../images/horiseon.png";
 import cssCheatSheet from "../../images/css-cheat-sheet.png";
-import "../../js/my-work.js";
 import randomPasswordGenerator from "../../images/screenshot-2.png";
 import timedQuiz from "../../images/Screenshot (23).png";
 import scheduler from "../../images/Screenshot (27).png";

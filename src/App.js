@@ -6,7 +6,7 @@ import Home from "./components/pages/Home";
 import Footer from "./components/pages/Footer";
 import Education from "./components/pages/Education";
 import MyWork from "./components/pages/My-work";
-import ContactMe from "./components/pages/Contact-me";
+import Form from "./components/pages/Contact-me";
 import "font-awesome/css/font-awesome.min.css";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <MyWork />
       </section>
       <section id="form-section">
-        <ContactMe />
+        <Form />
       </section>
       <Footer />
     </>

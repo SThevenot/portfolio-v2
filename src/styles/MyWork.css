@@ -1,12 +1,13 @@
 /** @format */
 
 #my-work {
-  margin-bottom: 40px;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  background-color: #E9E5D6;
 }
 
 #page2 {
@@ -18,9 +19,14 @@
   width: 400px;
 }
 
+#my-work h1 {
+  padding-bottom: 10px;
+  color: #464F41;
+}
+
 /* divs */
 
-.page-link {
+#my-work a {
   border: 2px solid #a2b29f;
   color: #d0c9c0;
   background-color: #798777;
