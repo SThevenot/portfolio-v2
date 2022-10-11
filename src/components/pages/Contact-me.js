@@ -23,25 +23,27 @@ function Form() {
       setMessage(inputValue);
     }
 
-    if (e.target,name === "email") {
-      const isValid = validateEmail(e.target.value);
-      if(!isValid) {
-      setErrorMessage("Enter a valid email please")
-      } else {
-        setErrorMessage("");
-      }
-    } else {
+
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required`)
       } else {
         setErrorMessage("");
       }
-    }
+    
   };
 
   const handleFormSubmit = (e) => {
 
   e.preventDefault();
+
+  if (!validateEmail(email)) {
+    const isValid = validateEmail(e.target.value);
+    if(!isValid) {
+    setErrorMessage("Enter a valid email please")
+    } else {
+      setErrorMessage("");
+    }
+  }
 
   setName('');
   setMessage('');
