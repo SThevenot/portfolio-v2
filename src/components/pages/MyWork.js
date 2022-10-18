@@ -17,13 +17,13 @@ function MyWork() {
           <a href="https://relero90.github.io/brewfinder/" target="_blank">
             <img src={brewfinder} />
           </a>
-          <p>Brewfinder Group Project</p>
+          <p id="darkText">Brewfinder</p>
         </div>
         <div className="project1">
           <a href="https://limitless-river-86981.herokuapp.com/" target="_blank">
             <img src={fitTheMood} alt="" />
           </a>
-          <p>Landing Page Website</p>
+          <p id="darkText">Fit The Mood</p>
         </div>
         <div className="project2">
           <a
@@ -32,7 +32,7 @@ function MyWork() {
           >
             <img src={hobbySpot} alt="" />
           </a>
-          <p>Horiseon Module 1 Challenge</p>
+          <p id="lightText">HobbySpot</p>
         </div>
         <div className="project3">
           <a
@@ -41,7 +41,7 @@ function MyWork() {
           >
             <img src={timedQuiz} alt="" />
           </a>
-          <p>CSS Cheat Sheet Mini Project</p>
+          <p id="lightText">Timed Quiz</p>
         </div>
       </div>
     </>

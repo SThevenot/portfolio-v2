@@ -7,20 +7,21 @@ import "../../styles/ThemeToggler.css"
 export default function ThemeToggler() {
   return (
     <div>
+      <h1> Please choose a theme! </h1>
+      <div id="buttonDiv">
       <Button
-        id="hero-btn1"
-        variant="primary"
+        id="lightBtn"
         onClick={() => document.body.setAttribute("data-theme", "light-theme")}
       >
         Light
       </Button>
       <Button
-        id="hero-btn1"
-        variant="primary"
+        id="forestBtn"
         onClick={() => document.body.setAttribute("data-theme", "forest-theme")}
       >
         Forest
       </Button>
+      </div>
     </div>
   );
 }

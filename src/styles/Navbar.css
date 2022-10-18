@@ -58,3 +58,9 @@
   a.nav-link:hover {
     text-shadow: 2px 2px 5px var(--forest3);
   }
+
+  header {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+  }
