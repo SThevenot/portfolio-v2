@@ -4,27 +4,27 @@
   }
   
   
-  #about-me {
+  #aboutMe {
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: var(--forest2);
+    background-color: var(--dark2);
   }
   
-  #about-h1 {
+  #aboutH1 {
     position: relative;
-    color: var(--forest4);
+    color: var(--med1);
     margin: 35px 0px;
   }
   
-  .sarah-img {
+  .sarahImg {
     border-radius: 30%;
-    border: 2px solid var(--forest1);
+    border: 2px solid var(--dark1);
     height: 302px;
     margin-bottom: 50px;
   }
   
-  #info-text {
+  #infoText {
     font-size: larger;
-    color: var(--forest7);
+    color: var(--light1);
   }

@@ -3,17 +3,17 @@
 #resume {
   height: 190px;
   text-align: center;
-  background-color: var(--forest3);
+  background-color: var(--dark3);
 }
 
 #resume h1 {
   padding: 15px;
-  color: var(--forest7);
+  color: var(--light1);
 }
 
 #resume button {
   width: 20%;
-  background-color: var(--forest2);
+  background-color: var(--dark2);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -23,11 +23,11 @@
 }
 
 #resume button:hover {
-  background-color: var(--forest4);
-  box-shadow: 2px 2px 5px var(--forest1);
+  background-color: var(--med1);
+  box-shadow: 2px 2px 5px var(--dark1);
 }
 
 #resume a {
   text-decoration: none;
-  color: var(--forest7);
+  color: var(--light1);
 }

@@ -6,12 +6,12 @@ input[type="email"] {
   display: inline-block;
   box-sizing: border-box;
   border-radius: 3px;
-  border: 2px solid var(--forest2);
+  border: 2px solid var(--dark2);
   margin: 10px 0;
 }
 
-#form-section {
-  background-color: var(--forest3);
+#contactMe {
+  background-color: var(--dark3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,9 +21,9 @@ form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 30px 600px;
+  margin: 30px 0px;
   padding: 10px;
-  background-color: var(--forest2);
+  background-color: var(--dark2);
   width: 500px;
   align-items: center;
   border-radius: 4px;
@@ -31,13 +31,13 @@ form {
 
 label {
   padding: 15px 0;
-  color: var(--forest7);
+  color: var(--light1);
   border-radius: 5px;
 }
 
 textarea {
   width: 250px;
-  border: 2px solid var(--forest1);
+  border: 2px solid var(--dark1);
   border-radius: 5px;
 }
 
@@ -45,10 +45,10 @@ input {
   margin: 50px 0;
 }
 
-#form-section button {
+#contactMe button {
   width: 100%;
-  background-color: var(--forest5);
-  color: var(--forest7);
+  background-color: var(--light3);
+  color: var(--light1);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -56,7 +56,7 @@ input {
   border-radius: 5px;
 }
 
-#form-section button:hover {
-  background-color: var(--forest3);
-  box-shadow: 2px 2px 5px var(--forest1);
+#contactMe button:hover {
+  background-color: var(--dark3);
+  box-shadow: 2px 2px 5px var(--dark1);
 }

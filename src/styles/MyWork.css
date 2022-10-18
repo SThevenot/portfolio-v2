@@ -1,49 +1,46 @@
 /** @format */
 
-#my-work {
+#myWork {
   padding: 20px 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  background-color: var(--forest4);
+  background-color: var(--med1);
 }
 
-#page2 {
-  display: none;
-}
 
-#my-work img {
-  border: 2px solid var(--forest3);
+#myWork img {
+  border: 2px solid var(--dark3);
   width: 400px;
 }
 
 img:hover {
-  box-shadow: 2px 2px 5px var(--forest1);
+  box-shadow: 2px 2px 5px var(--dark1);
 }
 
-#my-work h1 {
+#myWork h1 {
   padding-bottom: 10px;
-  color: var(--forest1);
+  color: var(--dark1);
 }
 
 /* divs */
 
-#my-work a {
-  border: 2px solid var(--forest3);
-  color: var(--forest5);
-  background-color: var(--forest2);
+#myWork a {
+  border: 2px solid var(--dark3);
+  color: var(--light3);
+  background-color: var(--dark2);
 }
 
-#my-work a:hover {
-  box-shadow: 2px 2px 5px var(--forest1);
+#myWork a:hover {
+  box-shadow: 2px 2px 5px var(--dark1);
 }
 
 /* p elements */
 
-#my-work p {
-  color: var(--forest2);
+#myWork p {
+  color: var(--dark2);
   font-size: large;
   text-align: center;
   padding: 10px;

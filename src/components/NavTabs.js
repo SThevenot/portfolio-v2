@@ -20,7 +20,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <ul>
           <li>
             <a
-              href="#about-me"
+              href="#aboutMe"
               onClick={() => handlePageChange("About-me")}
               className={
                 currentPage === "About-me" ? "nav-link active" : "nav-link"
@@ -43,7 +43,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <li>
             <a
               href="#my-work"
-              onClick={() => handlePageChange("My-work")}
+              onClick={() => handlePageChange("MyWork")}
               className={
                 currentPage === "My-work" ? "nav-link active" : "nav-link"
               }
@@ -54,7 +54,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <li>
             <a
               href="#form-section"
-              onClick={() => handlePageChange("Contact-me")}
+              onClick={() => handlePageChange("ContactMe")}
               className={
                 currentPage === "Contact-me" ? "nav-link active" : "nav-link"
               }

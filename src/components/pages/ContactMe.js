@@ -3,7 +3,7 @@ import "../../styles/ContactMe.css";
 
 import { validateEmail } from "../../utils/helpers";
 
-function Form() {
+function ContactMe() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
@@ -51,6 +51,7 @@ function Form() {
   };
 
     return (
+      <div>
         <form action="mailto:sktmh007@gmail.com" method="post">
         <label for="name">Name</label>
         <input
@@ -79,7 +80,8 @@ function Form() {
         </div>
       )}
       </form>
+      </div>
     )
 }
 
-export default Form;
+export default ContactMe;

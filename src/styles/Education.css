@@ -1,7 +1,7 @@
 #education {
     padding: 50px 0;
-    color: var(--forest7);
-    background-color: var(--forest2);
+    color: var(--light1);
+    background-color: var(--dark2);
     text-align: center;
   }
   
@@ -12,7 +12,7 @@
   }
   
   #education h1 {
-    color: var(--forest4);
+    color: var(--med1);
   }
   
   #education dl {

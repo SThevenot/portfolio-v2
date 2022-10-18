@@ -9,17 +9,17 @@ import trees from "../../images/trees.jpg"
 
 export default function Home() {
   return (
-    <div className="container-fluid" id="about-me" style={{
+    <div className="container-fluid" id="aboutMe" style={{
       backgroundImage: `url(${trees})`
     }}>
       <div className="col-3 text-center">
-        <h1 id="about-h1" className="mb-4">
+        <h1 id="aboutH1" className="mb-4">
           About Me
         </h1>
-        <img src={sarah} alt="Sarah" className="sarah-img" />
+        <img src={sarah} alt="Sarah" className="sarahImg" />
       </div>
       <div className="col-8">
-        <p id="info-text">
+        <p id="infoText">
           My name is Sarah Thevenot and I am currently enrolled in University of
           Denver's Coding Bootcamp. I graduated high school in 2020 and am
           recently unemployed trying to pursue my education and start a career
