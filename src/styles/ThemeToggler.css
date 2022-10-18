@@ -1,0 +1,37 @@
+:root {
+    --dark1: #333d29;
+    --dark2: #414833;
+    --dark3: #656d4a;
+    --med1: #a4ac86;
+    --light3: #c2c5aa;
+    --light2: #f0ead2;
+    --light1: #f8ede3;
+    --backgroundImg1: url(../images/trees.jpg);
+  }
+  
+  body[data-theme="light-theme"] {
+  --dark1: #7895B2;
+  --dark2: #AEBDCA;
+  --dark3: #B7C4CF;
+  --med1: #D0B8A8;
+  --light3: #EDE4E0;
+  --light2: #F8EDE3;
+  --light1: #FFF8EA;
+  --backgroundImg1: url(../images/sky.jpg);
+
+  }
+  
+  body[data-theme="forest-theme"] {
+    --dark1: #333d29;
+    --dark2: #414833;
+    --dark3: #656d4a;
+    --med1: #a4ac86;
+    --light3: #c2c5aa;
+    --light2: #f0ead2;
+    --light1: #f8ede3;
+    --backgroundImg1: url(../images/trees.jpg);
+  }
+  
+#themeToggler {
+  
+}

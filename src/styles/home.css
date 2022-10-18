@@ -1,5 +1,5 @@
-#backgroundImg {
-    background-image: url("../images/trees.jpg") ;
+#aboutMe {
+    background-image: var(--backgroundImg1) ;
     height: 800px;
   }
   

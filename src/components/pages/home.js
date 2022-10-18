@@ -3,15 +3,12 @@
 import React from "react";
 import "../../styles/home.css";
 import sarah from "../../images/sarah.jpeg";
-import trees from "../../images/trees.jpg"
 
 
 
 export default function Home() {
   return (
-    <div className="container-fluid" id="aboutMe" style={{
-      backgroundImage: `url(${trees})`
-    }}>
+    <div className="container-fluid" id="aboutMe">
       <div className="col-3 text-center">
         <h1 id="aboutH1" className="mb-4">
           About Me
