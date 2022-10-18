@@ -1,11 +1,29 @@
-/** @format */
+// /** @format */
 
-import React from "react";
+// import React, { useEffect, useState, Component } from "react";
+// import { render } from "react-dom";
+// import "../../styles/theme.css";
+// import { forestTheme, fallTheme } from "../../utils/theme";
 
-import "../../styles/theme.css";
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props)
+//   }
+// }
 
-export default function Theme() {
-    return (
-        <h1>Please pick a theme!</h1>
-    )
-}
+// setTheme(color) {
+//   if(color === "default")
+//   color = "#333d29"
+//   document.documentElement.style.setProperty("--one", color);
+// }
+
+// render() {
+//   return (
+//     <>
+//       <h1>Hello</h1>
+//       <button onClick={() => this.setTheme("default")}>toggle theme</button>
+//     </>
+//   );
+// }
+
+// render(<App/>, document.getElementById("root"));

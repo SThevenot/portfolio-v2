@@ -1,28 +1,23 @@
-// var navTabs  = document.querySelector("#navTabs");
-// var aboutMe = document.querySelector("#about-me");
-// var education = document.querySelector("#education");
-// var resume = document.querySelector("#resume");
-// var myWork  = document.querySelector("#my-work");
-// var contactMe = document.querySelector("#form-section");
-// var footer = document.querySelector("#footer");
+// /** @format */
 
-// function setTheme(themeName) {
-//     localStorage.setItem("theme", themeName);
-//     navTabs.classNameList.add(`${themeName}`);
+
+
+// export const forestTheme = {
+//     one:" #333d29",
+//     two: "#414833",
+//     three: "#656d4a",
+//     four: "#a4ac86",
+//     five: "#c2c5aa",
+//     six: "#f0ead2",
+//     seven: "#f8ede3",
 // }
 
-// function loadTheme() {
-//     if (localStorage.getItem("them") === "theme-forest") {
-//         setTheme("theme-forest");
-//     } else {
-//         setTheme("theme-forest");
-//     }
+// export const fallTheme = {
+//     one: "#AE431E",
+//     two: "#D06224",
+//     three: "#E5890A",
+//     four: "#8A8635",
+//     five: "#A09F57",
+//     six: "#CFB784",
+//     seven: "#EADEB8",
 // }
-
-// (function () {
-//     if (localStorage.getItem("theme") === "theme-forest") {
-//         setTheme("theme-forest");
-//     } else {
-//         setTheme("theme-forest");
-//     }
-// })();
