@@ -1,66 +1,63 @@
-
-
+/** @format */
 
 * {
-    max-width: 100%;
-    /* border: 1px solid red; */
-    scroll-behavior: smooth;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
+  max-width: 100%;
+  /* border: 1px solid red; */
+  scroll-behavior: smooth;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
-  body {
-    background-color: var(--light2);
-    padding: 0;
-    margin: 0;
-  }
+body {
+  background-color: var(--light2);
+  padding: 0;
+  margin: 0;
+}
 
-  header {
-    display: flex;
-    background-color: var(--dark1);
-    height: 100px;
-    position: sticky;
-    width: 100%;
-    align-items: center;
-    z-index: 1;
-  }
-  #title a{
-    text-decoration: none;
-    color: var(--light1);
-  }
-  
-  header h1 {
-    padding-left: 30px;
-    width: 500px;
-  }
-  
-  nav {
-    justify-content: end;
-    width: 100%;
-  }
-  
-  nav ul {
-    position: relative;
-    text-align: right;
-    margin-right: 20px;
-  }
-  
-  nav ul li {
-    display: inline-flex;
-    padding: 15px;
-    font-size: large;
-  }
-  
-  a.nav-link {
-    text-decoration: none;
-    color: var(--med1);
-  }
+#navbar {
+  display: flex;
+  background-color: var(--dark1);
+  height: 100px;
+  position: fixed !important;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
 
-  a.nav-link:hover {
-    text-shadow: 2px 2px 5px var(--forest3);
-  }
+#title {
+  width: 300px;
+  text-decoration: none;
+  color: var(--dark3);
+  font-size: 37px;
+}
 
-  header {
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: fixed;
-  }
+#navTabs ul {
+  float: right;
+  text-align: center;
+  background-color: rgba(51, 61, 41, 0.3);
+  width: 100px !important;
+}
+
+#navTabs a:hover {
+  color: var(--dark1);
+  text-shadow: 2px 2px var(--med1);
+}
+
+a.nav-link {
+  text-decoration: none;
+  color: var(--med1);
+}
+
+a.nav-link:hover {
+  text-shadow: 2px 2px 5px var(--dark3);
+}
+
+svg {
+  font-size: 40px !important;
+  color: var(--light2);
+}
+
+button:hover {
+  text-shadow: 2px 2px 5px var(--dark3) !important;
+}

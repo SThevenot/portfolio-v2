@@ -57,6 +57,6 @@ input {
 }
 
 #contactMe button:hover {
-  background-color: var(--dark1);
+  background-color: var(--dark3);
   box-shadow: 2px 2px 5px var(--dark1);
 }

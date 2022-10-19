@@ -15,9 +15,9 @@ footer div {
   footer button {
     background-color: var(--light2);
     border: none;
-    margin: 30px 70px;
     font-size: 40px;
     cursor: pointer;
+    flex-wrap: wrap;
   }
 
   footer a:hover {

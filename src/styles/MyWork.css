@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  background-color: var(--med1);
   background-image: linear-gradient(45deg, var(--gradients));
 }
 
@@ -39,19 +40,10 @@ img:hover {
 
 /* p elements */
 
-#lightText,
-#darkText {
+#myWork p {
+  color: var(--dark2);
   font-size: large;
   text-align: center;
   padding: 10px;
   margin: 0;
-}
-
-#lightText {
-  color: var(--light1);
-}
-
-#darkText {
-  color: var(--dark1);
-
 }

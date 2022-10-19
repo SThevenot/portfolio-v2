@@ -38,7 +38,7 @@
   --light2: #f0ead2;
   --light1: #f8ede3;
   --backgroundImg1: url(../images/trees.jpg);
-  --gradients: #333d29, #a4ac86, #f8ede3;
+  --gradients: #f0ead2,#c2c5aa, #a4ac86;
 }
 
 body[data-theme="light-theme"] {
@@ -50,8 +50,7 @@ body[data-theme="light-theme"] {
   --light2: #f8ede3;
   --light1: #fff8ea;
   --backgroundImg1: url(../images/sky.jpg);
-  --gradients: #7895b2, #F9EBC8, #fff8ea;
-
+  --gradients: #f8ede3, #ede4e0, #F9EBC8;
 }
 
 body[data-theme="forest-theme"] {
@@ -63,6 +62,5 @@ body[data-theme="forest-theme"] {
   --light2: #f0ead2;
   --light1: #f8ede3;
   --backgroundImg1: url(../images/trees.jpg);
-  --gradients: #333d29, #a4ac86, #f8ede3;
-
+  --gradients: #f0ead2, #c2c5aa, #a4ac86;
 }
