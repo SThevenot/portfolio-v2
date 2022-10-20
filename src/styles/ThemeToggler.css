@@ -20,7 +20,7 @@
 }
 
 #lightBtn {
-  background-color: #F9EBC8;
+  background-color: #f9ebc8;
   border: #787878 3px solid;
 }
 
@@ -37,20 +37,20 @@
   --light3: #c2c5aa;
   --light2: #f0ead2;
   --light1: #f8ede3;
-  --backgroundImg1: url(../images/trees.jpg);
-  --gradients: #f0ead2,#c2c5aa, #a4ac86;
+  --backgroundImg1: url(https://media.giphy.com/media/3ohhwJLZ2P9KOt3Z6w/giphy.gif);
+  --gradients: #f0ead2, #c2c5aa, #a4ac86;
 }
 
 body[data-theme="light-theme"] {
   --dark1: #7895b2;
   --dark2: #aebdca;
   --dark3: #b7c4cf;
-  --med1: #F9EBC8;
+  --med1: #f9ebc8;
   --light3: #ede4e0;
   --light2: #f8ede3;
   --light1: #fff8ea;
-  --backgroundImg1: url(../images/sky.jpg);
-  --gradients: #f8ede3, #ede4e0, #F9EBC8;
+  --backgroundImg1: url(https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif);
+  --gradients: #f8ede3, #ede4e0, #f9ebc8;
 }
 
 body[data-theme="forest-theme"] {
@@ -61,6 +61,6 @@ body[data-theme="forest-theme"] {
   --light3: #c2c5aa;
   --light2: #f0ead2;
   --light1: #f8ede3;
-  --backgroundImg1: url(../images/trees.jpg);
+  --backgroundImg1: url(https://media.giphy.com/media/3ohhwJLZ2P9KOt3Z6w/giphy.gif);
   --gradients: #f0ead2, #c2c5aa, #a4ac86;
 }
