@@ -1,29 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.38fa7c71.css",
-    "main.js": "/portfolio-v2/static/js/main.01387d0e.js",
-    "static/media/horiseon.png": "/portfolio-v2/static/media/horiseon.75de15027b930dd8c4ab.png",
-    "static/media/trees.jpg": "/portfolio-v2/static/media/trees.b7dd752ae649c9b4e160.jpg",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-v2/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "main.css": "/portfolio-v2/static/css/main.5b24832f.css",
+    "main.js": "/portfolio-v2/static/js/main.fc60b248.js",
     "static/media/sarah.jpeg": "/portfolio-v2/static/media/sarah.88913f217176ed441fcd.jpeg",
-    "static/media/css-cheat-sheet.png": "/portfolio-v2/static/media/css-cheat-sheet.7e2b42ff7602639840f7.png",
-    "static/media/skz-site.png": "/portfolio-v2/static/media/skz-site.154d79296e5551c15e3f.png",
-    "static/media/fontawesome-webfont.eot": "/portfolio-v2/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio-v2/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/signup-screenshot.png": "/portfolio-v2/static/media/signup-screenshot.c3cbc192bd608927ad2f.png",
     "static/media/brewfinder.png": "/portfolio-v2/static/media/brewfinder.09ea37b128124e202eac.png",
-    "static/media/Screenshot (27).png": "/portfolio-v2/static/media/Screenshot (27).1836cef612eb5a66253d.png",
+    "static/media/hobbyspot.png": "/portfolio-v2/static/media/hobbyspot.00bf348815293b4143a6.png",
     "static/media/Screenshot (23).png": "/portfolio-v2/static/media/Screenshot (23).faeadc85af48f55e0f86.png",
     "static/media/sarah_resume.pdf": "/portfolio-v2/static/media/sarah_resume.6aa028749162945d5fb9.pdf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-v2/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-v2/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/ss2-mod6.png": "/portfolio-v2/static/media/ss2-mod6.a31097d5e90c5a9d7c90.png",
-    "static/media/screenshot-2.png": "/portfolio-v2/static/media/screenshot-2.99f39991d84f91a5ce85.png",
     "index.html": "/portfolio-v2/index.html",
-    "main.38fa7c71.css.map": "/portfolio-v2/static/css/main.38fa7c71.css.map",
-    "main.01387d0e.js.map": "/portfolio-v2/static/js/main.01387d0e.js.map"
+    "main.5b24832f.css.map": "/portfolio-v2/static/css/main.5b24832f.css.map",
+    "main.fc60b248.js.map": "/portfolio-v2/static/js/main.fc60b248.js.map"
   },
   "entrypoints": [
-    "static/css/main.38fa7c71.css",
-    "static/js/main.01387d0e.js"
+    "static/css/main.5b24832f.css",
+    "static/js/main.fc60b248.js"
   ]
 }
