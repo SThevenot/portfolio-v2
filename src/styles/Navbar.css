@@ -14,11 +14,12 @@ nav {
 }
 
 #title {
-  width: 100%;
+  width: 25%;
   text-decoration: none;
   color: var(--dark3);
   padding-top: 12px;
   padding-left: 30px;
+  font-size: 30px;
 }
 
 
@@ -29,11 +30,16 @@ nav ul {
   text-align: right;
 }
 
-nav ul li {
+nav ul li,
+.links {
   list-style: none;
   text-align: center;
   font-size: large;
   padding: 15px;
+}
+
+.me-auto {
+  margin: 0px !important;
 }
 
 nav a:hover {
