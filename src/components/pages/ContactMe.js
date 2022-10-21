@@ -51,7 +51,7 @@ function ContactMe() {
   };
 
     return (
-      <div>
+      <div id="contactMe">
         <form action="mailto:sktmh007@gmail.com" method="post">
         <label for="name">Name</label>
         <input
@@ -62,6 +62,7 @@ function ContactMe() {
           onBlur={handleInputChange}
           onChange={handleInputChange}
         />
+        <label for="email">Email</label>
         <input
           value={email}
           name="email"

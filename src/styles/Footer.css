@@ -1,26 +1,27 @@
+/** @format */
+
 footer div {
-    background-color: var(--light2);
-    height: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    height: 140px;
-  }
-  
-  footer a {
-    text-decoration: none;
-    /* color: var(--light3); */
-  }
-  
-  footer button {
-    background-color: var(--light2);
-    border: none;
-    font-size: 40px;
-    cursor: pointer;
-    flex-wrap: wrap;
-  }
+  background-color: var(--light2);
+  height: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  height: 140px;
+}
 
-  footer a:hover {
-    color: var(--dark2);
-  }
+footer a {
+  text-decoration: none;
+  color: var(--light3);
+}
 
+footer button {
+  background-color: var(--light2);
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+footer a:hover {
+  color: var(--dark1) !important;
+}

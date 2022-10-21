@@ -6,7 +6,7 @@ import myResume from "../../files/sarah_resume.pdf";
 
 export default function Resume() {
   return (
-    <div>
+    <div id="resume">
       <h1>Resume</h1>
       <button>
         <a href={myResume} download="sarah_resume.pdf">Download here</a>

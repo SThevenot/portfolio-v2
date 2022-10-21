@@ -2,12 +2,12 @@
 import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import "../styles/Navbar.css";
-import { slide as Menu } from "react-burger-menu";
+import { bubble as Menu } from "react-burger-menu";
 
 export default (props) => {
   return (
     <nav>
-      <h1 id="title">Sarah Thevenot</h1>
+      <h1 id="title"><NavLink to="/">Sarah Thevenot</NavLink></h1>
       <Menu {...props} right>
         <ul>
           <li>

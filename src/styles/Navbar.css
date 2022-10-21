@@ -1,17 +1,5 @@
 /** @format */
 
-* {
-  max-width: 100%;
-  /* border: 1px solid red; */
-  scroll-behavior: smooth;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-body {
-  background-color: var(--light2);
-  padding: 0;
-  margin: 0;
-}
 
 nav {
   display: flex;
@@ -33,6 +21,7 @@ nav {
   padding-left: 30px;
 }
 
+
 nav ul {
   display: inline-block;
   margin-right: 20px;
@@ -48,13 +37,8 @@ nav ul li {
 }
 
 nav a:hover {
-  color: var(--dark1);
-  text-shadow: 2px 2px var(--dark2);
-}
-
-div.bm-cross-button {
-  color: red !important;
-  font-size: large !important;
+  color: var(--med1);
+  text-shadow: 2px 2px var(--dark3);
 }
 
 a {
@@ -71,7 +55,7 @@ a:hover {
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
+  right: 36px;
   top: 36px;
 }
 
@@ -83,7 +67,9 @@ a:hover {
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: var(--dark3);
+  box-shadow: 2px 2px 5px var(--dark3);
+
 }
 
 /* Position and sizing of clickable cross button */
@@ -94,7 +80,9 @@ a:hover {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: var(--dark2) !important;
+  border: var(--light1) 2px solid;
+
 }
 
 /*
@@ -108,19 +96,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: var(--dark1);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: #373a47;
+  fill: var(--med1);
 }
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: var(--med1);
   padding: 0.8em;
 }
 

@@ -10,7 +10,7 @@ import timedQuiz from "../../images/Screenshot (23).png"
 function MyWork() {
     
   return (
-    <>
+    <div id="education">
       <h1>My Projects</h1>
       <div id="page1">
         <div className="project5">
@@ -44,7 +44,7 @@ function MyWork() {
           <p id="lightText">Timed Quiz</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -3,10 +3,11 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import "../../styles/ThemeToggler.css"
+import "../../styles/universal.css"
 
 export default function ThemeToggler() {
   return (
-    <div>
+    <div id="themeToggler">
       <h1> Please choose a theme! </h1>
       <div id="buttonDiv">
       <Button
