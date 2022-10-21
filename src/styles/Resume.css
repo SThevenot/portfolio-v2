@@ -1,9 +1,10 @@
 /** @format */
 
 #resume {
-  height: 190px;
+  height: auto;
   text-align: center;
-  background-color: var(--dark3);
+  padding: 20px;
+  background-color: var(--med1);
 }
 
 #resume h1 {
@@ -23,7 +24,7 @@
 }
 
 #resume button:hover {
-  background-color: var(--med1);
+  background-color: var(--dark1);
   box-shadow: 2px 2px 5px var(--dark1);
 }
 

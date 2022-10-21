@@ -42,7 +42,6 @@ class NavTabs extends React.Component {
                 <Navbar.Brand id="title"><NavLink to="/">Sarah Thevenot</NavLink></Navbar.Brand>
                 <Nav className="me-auto">
                   <ul>
-                  <NavLink to="/themetoggler" className="links">Theme</NavLink>
                   <NavLink to="/resume/education" className="links">Resume</NavLink>
                   <NavLink to="/projects" className="links">Projects</NavLink>
                   <NavLink to="/contact" className="links">Contact Me</NavLink>

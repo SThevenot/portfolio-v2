@@ -11,10 +11,14 @@ input[type="email"] {
 }
 
 #contactMe {
-  background-color: var(--dark3);
+  /* background-color: var(--dark3); */
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: var(--backgroundImg1) ;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 form {

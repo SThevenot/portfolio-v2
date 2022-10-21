@@ -22,15 +22,17 @@ function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
-            <Route path="/themetoggler" element={<ThemeToggler />}></Route>
             <Route
-              path="/education/resume"
+              path="/resume/education"
               element={[<Education />, <Resume />]}
             ></Route>
             <Route path="/projects" element={<MyWork />}></Route>
             <Route path="/contact" element={<ContactMe />}></Route>
           </Routes>
         </div>
+        <section id="themeToggler">
+          <ThemeToggler />
+        </section>
         <section id="footer">
           <Footer />
         </section>

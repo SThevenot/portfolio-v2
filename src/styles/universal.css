@@ -16,8 +16,7 @@ body {
 #contactMe,
 #education,
 #aboutMe,
-#myWork,
-#resume,
-#themeToggler {
-  padding-top: 100px;
+#myWork
+ {
+  padding-top: 120px !important;
 }

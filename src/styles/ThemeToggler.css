@@ -3,9 +3,11 @@
 #themeToggler {
   text-align: center;
   background-color: var(--dark3);
-  padding: 50px;
+  padding: 30px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #themeToggler h1 {

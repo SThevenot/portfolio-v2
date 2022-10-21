@@ -8,9 +8,17 @@
   align-items: center;
   width: 100%;
   background-color: var(--med1);
-  background-image: linear-gradient(45deg, var(--gradients));
+
+  background-image: var(--backgroundImg1) ;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+Col {
+  display: flex;
+  justify-content: center;
+}
 
 #myWork img {
   border: 2px solid var(--dark3);
@@ -47,3 +55,4 @@ img:hover {
   padding: 10px;
   margin: 0;
 }
+

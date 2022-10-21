@@ -3,51 +3,131 @@
 import React from "react";
 import "../../styles/MyWork.css";
 import brewfinder from "../../images/brewfinder.png";
-import fitTheMood from "../../images/signup-screenshot.png"
-import hobbySpot from "../../images/hobbyspot.png"
-import timedQuiz from "../../images/Screenshot (23).png"
+import fitTheMood from "../../images/signup-screenshot.png";
+import hobbySpot from "../../images/hobbyspot.png";
+import timedQuiz from "../../images/Screenshot (23).png";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import { CardGroup } from "react-bootstrap";
+import { FaGithub } from "react-icons/fa";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 function MyWork() {
-    
   return (
-    <div id="education">
-      <h1>My Projects</h1>
-      <div id="page1">
-        <div className="project5">
-          <a href="https://relero90.github.io/brewfinder/" target="_blank">
-            <img src={brewfinder} />
-          </a>
-          <p id="darkText">Brewfinder</p>
-        </div>
-        <div className="project1">
-          <a href="https://limitless-river-86981.herokuapp.com/" target="_blank">
-            <img src={fitTheMood} alt="" />
-          </a>
-          <p id="darkText">Fit The Mood</p>
-        </div>
-        <div className="project2">
-          <a
-            href="https://damp-reaches-02576.herokuapp.com/"
-            target="_blank"
-          >
-            <img src={hobbySpot} alt="" />
-          </a>
-          <p id="lightText">HobbySpot</p>
-        </div>
-        <div className="project3">
-          <a
-            href="https://sthevenot.github.io/timedQuiz/"
-            target="_blank"
-          >
-            <img src={timedQuiz} alt="" />
-          </a>
-          <p id="lightText">Timed Quiz</p>
-        </div>
-      </div>
-    </div>
+    <section id="myWork">
+      <Row>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2">
+            <Card.Img variant="top" src={fitTheMood} />
+            <Card.Body>
+              <Card.Title>Fit The Mood</Card.Title>
+              <Card.Text>
+                This application is a one-stop website that allows the user to
+                keep track of their emotions and workouts over time.
+              </Card.Text>
+              <Button
+                href="https://limitless-river-86981.herokuapp.com/"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2">
+            <Card.Img variant="top" src={fitTheMood} />
+            <Card.Body>
+              <Card.Title>Fit The Mood</Card.Title>
+              <Card.Text>
+                This application is a one-stop website that allows the user to
+                keep track of their emotions and workouts over time.
+              </Card.Text>
+              <Button
+                href="https://limitless-river-86981.herokuapp.com/"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2">
+            <Card.Img variant="top" src={fitTheMood} />
+            <Card.Body>
+              <Card.Title>Fit The Mood</Card.Title>
+              <Card.Text>
+                This application is a one-stop website that allows the user to
+                keep track of their emotions and workouts over time.
+              </Card.Text>
+              <Button
+                href="https://limitless-river-86981.herokuapp.com/"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+        <Card style={{ width: "18rem" }} className="mt-2 mb-2">
+          <Card.Img variant="top" src={fitTheMood} />
+          <Card.Body>
+            <Card.Title>Fit The Mood</Card.Title>
+            <Card.Text>
+              This application is a one-stop website that allows the user to
+              keep track of their emotions and workouts over time.
+            </Card.Text>
+            <Button
+              href="https://limitless-river-86981.herokuapp.com/"
+              target="_blank"
+            >
+              <FaGithub />
+            </Button>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col m={6}>
+        <Card style={{ width: "18rem" }} className="mt-2 mb-2">
+          <Card.Img variant="top" src={fitTheMood} />
+          <Card.Body>
+            <Card.Title>Fit The Mood</Card.Title>
+            <Card.Text>
+              This application is a one-stop website that allows the user to
+              keep track of their emotions and workouts over time.
+            </Card.Text>
+            <Button
+              href="https://limitless-river-86981.herokuapp.com/"
+              target="_blank"
+            >
+              <FaGithub />
+            </Button>
+          </Card.Body>
+        </Card>
+        </Col>
+        <Col m={6}>
+        <Card style={{ width: "18rem" }} className="mt-2 mb-2">
+          <Card.Img variant="top" src={fitTheMood} />
+          <Card.Body>
+            <Card.Title>Fit The Mood</Card.Title>
+            <Card.Text>
+              This application is a one-stop website that allows the user to
+              keep track of their emotions and workouts over time.
+            </Card.Text>
+            <Button
+              href="https://limitless-river-86981.herokuapp.com/"
+              target="_blank"
+            >
+              <FaGithub />
+            </Button>
+          </Card.Body>
+        </Card>
+        </Col>
+      </Row>
+    </section>
   );
 }
-
-
 
 export default MyWork;
