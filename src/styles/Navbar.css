@@ -13,51 +13,123 @@ body {
   margin: 0;
 }
 
-#navbar {
+nav {
   display: flex;
   background-color: var(--dark1);
   height: 100px;
-  position: fixed !important;
+  position: fixed;
   width: 100%;
-  align-items: center;
-  z-index: 1;
+  top: 0px;
+  z-index: 10;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
 #title {
-  width: 300px;
+  width: 100%;
   text-decoration: none;
   color: var(--dark3);
-  font-size: 37px;
+  padding-top: 12px;
+  padding-left: 30px;
 }
 
-#navTabs ul {
-  float: right;
+nav ul {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
   text-align: center;
-  background-color: rgba(51, 61, 41, 0.3);
-  width: 100px !important;
+  font-size: large;
+  padding: 15px;
 }
 
-#navTabs a:hover {
+nav a:hover {
   color: var(--dark1);
-  text-shadow: 2px 2px var(--med1);
+  text-shadow: 2px 2px var(--dark2);
 }
 
-a.nav-link {
+div.bm-cross-button {
+  color: red !important;
+  font-size: large !important;
+}
+
+a {
   text-decoration: none;
-  color: var(--med1);
+  color: var(--med1) !important;
 }
 
-a.nav-link:hover {
+a:hover {
   text-shadow: 2px 2px 5px var(--dark3);
 }
 
-svg {
-  font-size: 40px !important;
-  color: var(--light2);
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
 }
 
-button:hover {
-  text-shadow: 2px 2px 5px var(--dark3) !important;
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: var(--med1);
+  border-radius: 5px;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }

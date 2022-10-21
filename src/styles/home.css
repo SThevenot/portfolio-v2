@@ -1,6 +1,6 @@
 #aboutMe {
     background-image: var(--backgroundImg1) ;
-    height: 800px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -10px;
@@ -24,7 +24,8 @@
   .sarahImg {
     border-radius: 30%;
     border: 2px solid var(--dark1);
-    height: 302px;
+    height: auto;
+    width: 400px;
     margin-bottom: 50px;
   }
   

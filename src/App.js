@@ -9,34 +9,32 @@ import MyWork from "./components/pages/MyWork";
 import ContactMe from "./components/pages/ContactMe";
 import Resume from "./components/pages/Resume";
 import ThemeToggler from "./components/pages/ThemeToggler";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <section id="navTabs">
-        <NavTabs />
-      </section>
-      <section id="aboutMe">
-        <Home />
-      </section>
-      <section id="themeToggler">
-        <ThemeToggler/>
-      </section>
-      <section id="education">
-        <Education />
-      </section>
-      <section id="resume">
-        <Resume />
-      </section>
-      <section id="myWork">
-        <MyWork />
-      </section>
-      <section id="contactMe">
-        <ContactMe />
-      </section>
-      <section id="footer">
-        <Footer />
-      </section>
+      <Router>
+        <NavTabs
+          pageWrapId={"page-wrap"}
+          outerContainerId={"outer-container"}
+        />
+        <div>
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route path="/themetoggler" element={<ThemeToggler />}></Route>
+            <Route
+              path="/education/resume"
+              element={[<Education />, <Resume />]}
+            ></Route>
+            <Route path="/projects" element={<MyWork />}></Route>
+            <Route path="/contact" element={<ContactMe />}></Route>
+          </Routes>
+        </div>
+        <section id="footer">
+          <Footer />
+        </section>
+      </Router>
     </>
   );
 }
