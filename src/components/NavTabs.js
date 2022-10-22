@@ -2,7 +2,6 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 import "../styles/Navbar.css";
-import { useState, useEffect } from "react";
 import { bubble as Menu } from "react-burger-menu";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -42,7 +41,7 @@ class NavTabs extends React.Component {
                 <Navbar.Brand id="title"><NavLink to="/">Sarah Thevenot</NavLink></Navbar.Brand>
                 <Nav className="me-auto">
                   <ul>
-                  <NavLink to="/resume/education" className="links">Resume</NavLink>
+                  <NavLink to="/resume" className="links">Resume</NavLink>
                   <NavLink to="/projects" className="links">Projects</NavLink>
                   <NavLink to="/contact" className="links">Contact Me</NavLink>
                   </ul>
@@ -64,7 +63,7 @@ class NavTabs extends React.Component {
                   <NavLink to="/themetoggler">Theme Toggler</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/education/resume">Resume/Education</NavLink>
+                  <NavLink to="/resume">Resume</NavLink>
                 </li>
                 <li>
                   <NavLink to="/projects">My Work</NavLink>

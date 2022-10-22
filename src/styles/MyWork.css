@@ -56,3 +56,6 @@ img:hover {
   margin: 0;
 }
 
+.cardStyle:hover {
+  box-shadow: 4px 2px 2px var(--med1);
+}

@@ -23,8 +23,8 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route
-              path="/resume/education"
-              element={[<Education />, <Resume />]}
+              path="/resume"
+              element={<Resume />}
             ></Route>
             <Route path="/projects" element={<MyWork />}></Route>
             <Route path="/contact" element={<ContactMe />}></Route>

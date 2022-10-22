@@ -18,7 +18,7 @@ function MyWork() {
     <section id="myWork">
       <Row>
         <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2">
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
             <Card.Img variant="top" src={fitTheMood} />
             <Card.Body>
               <Card.Title>Fit The Mood</Card.Title>
@@ -27,43 +27,104 @@ function MyWork() {
                 keep track of their emotions and workouts over time.
               </Card.Text>
               <Button
-                href="https://limitless-river-86981.herokuapp.com/"
+                href="https://github.com/halliemestas/FitTheMood"
                 target="_blank"
               >
                 <FaGithub />
               </Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2">
-            <Card.Img variant="top" src={fitTheMood} />
-            <Card.Body>
-              <Card.Title>Fit The Mood</Card.Title>
-              <Card.Text>
-                This application is a one-stop website that allows the user to
-                keep track of their emotions and workouts over time.
-              </Card.Text>
               <Button
                 href="https://limitless-river-86981.herokuapp.com/"
                 target="_blank"
               >
-                <FaGithub />
+                Demo
               </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2">
-            <Card.Img variant="top" src={fitTheMood} />
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={hobbySpot} />
             <Card.Body>
-              <Card.Title>Fit The Mood</Card.Title>
+              <Card.Title>HobbySpot</Card.Title>
               <Card.Text>
-                This application is a one-stop website that allows the user to
-                keep track of their emotions and workouts over time.
+                This project is a blog style application where users can login
+                and post about what they enjoy as hobbies.
               </Card.Text>
               <Button
-                href="https://limitless-river-86981.herokuapp.com/"
+                href="https://github.com/Ehren-Lewis/HobbySpot"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                href="https://damp-reaches-02576.herokuapp.com/"
+                target="_blank"
+              >
+                Demo
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={brewfinder} />
+            <Card.Body>
+              <Card.Title>Brewfinder</Card.Title>
+              <Card.Text>
+                This is a group project that allows the user to type in a city
+                and state to view local breweries and weather data using APIs.
+              </Card.Text>
+              <Button
+                href="https://relero90.github.io/brewfinder/"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                href="https://github.com/relero90/brewfinder"
+                target="_blank"
+              >
+                Demo
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={fitTheMood} />
+            <Card.Body>
+              <Card.Title>Note-Taker</Card.Title>
+              <Card.Text>
+                This a functionional web application that allows the user to
+                take notes and save them locally.
+              </Card.Text>
+              <Button
+                href="https://sthevenot.github.io/note-taker/"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                href="https://github.com/SThevenot/note-taker"
+                target="_blank"
+              >
+                Demo
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={fitTheMood} />
+            <Card.Body>
+              <Card.Title>Employee Tracker</Card.Title>
+              <Card.Text>
+                A mySQL application that will prompt the user if they want to
+                view all of the employees, departments, or roles and if they
+                want to edit them as well.
+              </Card.Text>
+              <Button
+                href="https://github.com/SThevenot/employee-tracker"
                 target="_blank"
               >
                 <FaGithub />
@@ -72,58 +133,139 @@ function MyWork() {
           </Card>
         </Col>
         <Col m={6}>
-        <Card style={{ width: "18rem" }} className="mt-2 mb-2">
-          <Card.Img variant="top" src={fitTheMood} />
-          <Card.Body>
-            <Card.Title>Fit The Mood</Card.Title>
-            <Card.Text>
-              This application is a one-stop website that allows the user to
-              keep track of their emotions and workouts over time.
-            </Card.Text>
-            <Button
-              href="https://limitless-river-86981.herokuapp.com/"
-              target="_blank"
-            >
-              <FaGithub />
-            </Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Body>
+              <Card.Title>Timed Quiz</Card.Title>
+              <Card.Text>
+                This is a website that will take you through a timed quiz. Time
+                will be deducted if you answer a question incorrectly. At the
+                end you can save your score.
+              </Card.Text>
+              <Button
+                href="https://github.com/SThevenot/timedQuiz"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                href="https://sthevenot.github.io/timedQuiz/"
+                target="_blank"
+              >
+                Demo
+              </Button>
+            </Card.Body>
+          </Card>
         </Col>
         <Col m={6}>
-        <Card style={{ width: "18rem" }} className="mt-2 mb-2">
-          <Card.Img variant="top" src={fitTheMood} />
-          <Card.Body>
-            <Card.Title>Fit The Mood</Card.Title>
-            <Card.Text>
-              This application is a one-stop website that allows the user to
-              keep track of their emotions and workouts over time.
-            </Card.Text>
-            <Button
-              href="https://limitless-river-86981.herokuapp.com/"
-              target="_blank"
-            >
-              <FaGithub />
-            </Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Body>
+              <Card.Title>README.md Generator</Card.Title>
+              <Card.Text>
+                This is a program that prompts the user with questions about
+                their project and creates a dynamic and concise markdown file.
+              </Card.Text>
+              <Button
+                href="https://github.com/SThevenot/readme-generator"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Body>
+          </Card>
         </Col>
         <Col m={6}>
-        <Card style={{ width: "18rem" }} className="mt-2 mb-2">
-          <Card.Img variant="top" src={fitTheMood} />
-          <Card.Body>
-            <Card.Title>Fit The Mood</Card.Title>
-            <Card.Text>
-              This application is a one-stop website that allows the user to
-              keep track of their emotions and workouts over time.
-            </Card.Text>
-            <Button
-              href="https://limitless-river-86981.herokuapp.com/"
-              target="_blank"
-            >
-              <FaGithub />
-            </Button>
-          </Card.Body>
-        </Card>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Body>
+              <Card.Title>Random Password Generator</Card.Title>
+              <Card.Text>
+                This website prompts the user for what specifications they'd
+                like for their password and generates a random password based on
+                that.
+              </Card.Text>
+              <Button
+                href="https://github.com/SThevenot/random-password"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                href="https://sthevenot.github.io/random-password/"
+                target="_blank"
+              >
+                Demo
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Body>
+              <Card.Title>Back-End Social Network</Card.Title>
+              <Card.Text>
+                This is a back-end application that allows the user to create
+                thoughts, reactions, and add friends as well.
+              </Card.Text>
+              <Button
+                href="https://github.com/SThevenot/social-network"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Body>
+              <Card.Title>Work Team Generator</Card.Title>
+              <Card.Text>
+                A website that allows the user to create a team of managers,
+                engineers, and interns in the backend and display them on the
+                frontend.
+              </Card.Text>
+              <Button
+                href="https://github.com/SThevenot/team-generator"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                href="https://sthevenot.github.io/team-generator/"
+                target="_blank"
+              >
+                Demo
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col m={6}>
+          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Body>
+              <Card.Title>Work Scheduler</Card.Title>
+              <Card.Text>
+                A functional work scheduler using Boostrap 5 to style
+                accordingly and moment.js for current timestamps.
+              </Card.Text>
+              <Button
+                href="https://github.com/SThevenot/work-scheduler"
+                target="_blank"
+              >
+                <FaGithub />
+              </Button>
+              <Button
+                href="https://sthevenot.github.io/work-scheduler/"
+                target="_blank"
+              >
+                Demo
+              </Button>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
     </section>
