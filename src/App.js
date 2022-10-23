@@ -4,7 +4,6 @@ import React from "react";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import Footer from "./components/pages/Footer";
-import Education from "./components/pages/Education";
 import MyWork from "./components/pages/MyWork";
 import ContactMe from "./components/pages/ContactMe";
 import Resume from "./components/pages/Resume";
