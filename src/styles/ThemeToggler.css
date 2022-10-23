@@ -39,7 +39,7 @@
   --light3: #c2c5aa;
   --light2: #f0ead2;
   --light1: #f8ede3;
-  --backgroundImg1: url(https://media.giphy.com/media/3ohhwJLZ2P9KOt3Z6w/giphy.gif);
+  --backgroundImg1: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
   --gradients: #f0ead2, #c2c5aa, #a4ac86;
 }
 
@@ -51,8 +51,8 @@ body[data-theme="light-theme"] {
   --light3: #ede4e0;
   --light2: #f8ede3;
   --light1: #fff8ea;
-  --backgroundImg1: url(https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif);
-  --gradients: #f8ede3, #ede4e0, #f9ebc8;
+  --backgroundImg1: url(https://media.tenor.com/_D-iPkf7QUQAAAAC/anime-aesthetic.gif);
+  --gradients: #f8ede3, #ede4e0, #b7c4cf;
 }
 
 body[data-theme="forest-theme"] {

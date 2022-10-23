@@ -6,13 +6,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  width: 100%;
-  background-color: var(--med1);
-
-  background-image: var(--backgroundImg1) ;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(to top right, var(--gradients));
 }
 
 Col {
