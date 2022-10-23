@@ -17,8 +17,8 @@ function MyWork() {
   return (
     <section id="myWork">
       <Row>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={fitTheMood} />
             <Card.Body>
               <Card.Title>Fit The Mood</Card.Title>
@@ -41,8 +41,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={hobbySpot} />
             <Card.Body>
               <Card.Title>HobbySpot</Card.Title>
@@ -65,8 +65,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={brewfinder} />
             <Card.Body>
               <Card.Title>Brewfinder</Card.Title>
@@ -89,8 +89,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={fitTheMood} />
             <Card.Body>
               <Card.Title>Note-Taker</Card.Title>
@@ -113,8 +113,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={fitTheMood} />
             <Card.Body>
               <Card.Title>Employee Tracker</Card.Title>
@@ -132,8 +132,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={timedQuiz} />
             <Card.Body>
               <Card.Title>Timed Quiz</Card.Title>
@@ -157,8 +157,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={timedQuiz} />
             <Card.Body>
               <Card.Title>README.md Generator</Card.Title>
@@ -175,8 +175,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={timedQuiz} />
             <Card.Body>
               <Card.Title>Random Password Generator</Card.Title>
@@ -200,8 +200,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={timedQuiz} />
             <Card.Body>
               <Card.Title>Back-End Social Network</Card.Title>
@@ -218,8 +218,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={timedQuiz} />
             <Card.Body>
               <Card.Title>Work Team Generator</Card.Title>
@@ -243,8 +243,8 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col m={6}>
-          <Card style={{ width: "18rem" }} className="mt-2 mb-2 cardStyle">
+        <Col sm="12" md="6" lg="4" xl="3">
+          <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={timedQuiz} />
             <Card.Body>
               <Card.Title>Work Scheduler</Card.Title>
