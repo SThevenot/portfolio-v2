@@ -38,7 +38,7 @@ class NavTabs extends React.Component {
           <>
             <Navbar>
               <Container>
-                <Navbar.Brand id="title"><NavLink to="/">Sarah Thevenot</NavLink></Navbar.Brand>
+                <Navbar.Brand id="title"><NavLink to="/portfolio-v2">Sarah Thevenot</NavLink></Navbar.Brand>
                 <Nav className="me-auto">
                   <ul>
                   <NavLink to="/resume" className="links">Resume</NavLink>
@@ -52,12 +52,12 @@ class NavTabs extends React.Component {
         ) : (
           <>
             <h1 id="title">
-              <NavLink to="/">Sarah Thevenot</NavLink>
+              <NavLink to="/portfolio-v2">Sarah Thevenot</NavLink>
             </h1>
             <Menu right>
               <ul>
                 <li>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/portfolio-v2">Home</NavLink>
                 </li>
                 <li>
                   <NavLink to="/themetoggler">Theme Toggler</NavLink>
