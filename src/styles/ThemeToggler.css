@@ -40,6 +40,11 @@
   border: #16213E 3px solid;
 }
 
+#sunsetBtn {
+  background-color: #7A4069;
+  border: #513252 3px solid;
+}
+
 :root {
   --dark1: #395144;
   --dark2: #4E6C50;
@@ -77,13 +82,25 @@ body[data-theme="forest-theme"] {
 }
 
 body[data-theme="dark-theme"] {
-  --dark1: #16213E;
-  --dark2: #0F3460;
-  --dark3: #064663;
-  --med1: #543864;
-  --light3: #8B4367;
-  --light2: #6B778D;
-  --light1: #A5C9CA;
+  --dark1: #0D0C1D;
+  --dark2: #161B33;
+  --dark3: #2F304C;
+  --med1: #2B3464;
+  --light3: #685D6F;
+  --light2: #918599;
+  --light1: #FBF5EE;
   --backgroundImg1: url(https://thumbs.gfycat.com/CalculatingUnfinishedAmericanbadger-max-1mb.gif);
-  --gradients: #6B778D, #8B4367, #064663;
+  --gradients: #918599, #2B3464, #161B33;
+}
+
+body[data-theme="sunset-theme"] {
+  --dark1: #513252;
+  --dark2: #7A4069;
+  --dark3: #CA4E79;
+  --med1: #FF87B2;
+  --light3: #FFE898;
+  --light2: #FEE0C0;
+  --light1: #FAF0CA;
+  --backgroundImg1: url(https://i.pinimg.com/originals/8d/8c/5b/8d8c5b8ebf3409c71bf7367ab09277a8.gif);
+  --gradients: #FEE0C0, #FF87B2, #7A4069;
 }

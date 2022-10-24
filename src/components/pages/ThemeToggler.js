@@ -28,6 +28,12 @@ export default function ThemeToggler() {
       >
         Dark
       </Button>
+      <Button
+        id="sunsetBtn"
+        onClick={() => document.body.setAttribute("data-theme", "sunset-theme")}
+      >
+        Sunset
+      </Button>
       </div>
     </div>
   );
