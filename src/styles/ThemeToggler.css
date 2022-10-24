@@ -21,26 +21,35 @@
   justify-content: space-evenly;
 }
 
+#themeToggler button {
+  margin: auto 20px;
+}
+
 #lightBtn {
-  background-color: #f9ebc8;
-  border: #787878 3px solid;
+  background-color: #aebdca;
+  border: #7895b2 3px solid;
 }
 
 #forestBtn {
-  background-color: #a4ac86;
-  border: #333d29 3px solid;
+  background-color: #4E6C50;
+  border: #395144 3px solid;
+}
+
+#darkBtn {
+  background-color: #0F3460;
+  border: #16213E 3px solid;
 }
 
 :root {
-  --dark1: #333d29;
-  --dark2: #414833;
-  --dark3: #656d4a;
-  --med1: #a4ac86;
+  --dark1: #395144;
+  --dark2: #4E6C50;
+  --dark3: #749F82;
+  --med1: #C8DBBE;
   --light3: #c2c5aa;
   --light2: #f0ead2;
   --light1: #f8ede3;
   --backgroundImg1: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
-  --gradients: #f0ead2, #c2c5aa, #a4ac86;
+  --gradients: #f0ead2, #c2c5aa, #C8DBBE;
 }
 
 body[data-theme="light-theme"] {
@@ -56,13 +65,25 @@ body[data-theme="light-theme"] {
 }
 
 body[data-theme="forest-theme"] {
-  --dark1: #333d29;
-  --dark2: #414833;
-  --dark3: #656d4a;
-  --med1: #a4ac86;
+  --dark1: #395144;
+  --dark2: #4E6C50;
+  --dark3: #749F82;
+  --med1: #C8DBBE;
   --light3: #c2c5aa;
   --light2: #f0ead2;
   --light1: #f8ede3;
-  --backgroundImg1: url(https://media.giphy.com/media/3ohhwJLZ2P9KOt3Z6w/giphy.gif);
-  --gradients: #f0ead2, #c2c5aa, #a4ac86;
+  --backgroundImg1: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
+  --gradients: #f0ead2, #c2c5aa, #C8DBBE;
+}
+
+body[data-theme="dark-theme"] {
+  --dark1: #16213E;
+  --dark2: #0F3460;
+  --dark3: #064663;
+  --med1: #543864;
+  --light3: #8B4367;
+  --light2: #6B778D;
+  --light1: #A5C9CA;
+  --backgroundImg1: url(https://thumbs.gfycat.com/CalculatingUnfinishedAmericanbadger-max-1mb.gif);
+  --gradients: #6B778D, #8B4367, #064663;
 }

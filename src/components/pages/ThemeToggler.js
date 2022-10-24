@@ -22,6 +22,12 @@ export default function ThemeToggler() {
       >
         Forest
       </Button>
+      <Button
+        id="darkBtn"
+        onClick={() => document.body.setAttribute("data-theme", "dark-theme")}
+      >
+        Dark
+      </Button>
       </div>
     </div>
   );

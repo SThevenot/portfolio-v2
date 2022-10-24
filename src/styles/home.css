@@ -26,9 +26,8 @@
 .sarahImg {
   border-radius: 30%;
   border: 2px solid var(--dark1);
-  height: auto;
-  width: 400px;
   margin-bottom: 50px;
+  width: auto;
 }
 
 .animation {
@@ -40,4 +39,10 @@
 .animationText {
   text-align: center;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 950px) {
+  .sarahImg {
+    width: 75%;
+  }
 }
