@@ -53,6 +53,7 @@ function ContactMe() {
     return (
       <div id="contactMe">
         <form action="mailto:sktmh007@gmail.com" method="post">
+          <h1 className="formTitle">Contact Me</h1>
         <label for="name">Name</label>
         <input
           value={name}

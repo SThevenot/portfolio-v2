@@ -32,8 +32,9 @@ export default function Resume() {
             </dl>
             <br />
           </div>
+          <h1 className="skillsH1">Skills</h1>
           <div id="skills">
-            <Table striped bordered hover className="table">
+            <Table striped bordered hover className="table mt-0">
               <thead>
                 <tr>
                   <th>Front-end</th>
@@ -73,10 +74,14 @@ export default function Resume() {
               <h1>Certificates</h1>
               <dt>Full-Stack Coding Bootcamp </dt>
               <dd>University of Denver</dd>
-              <dd><span>Complete</span></dd>
+              <dd>
+                <span>Complete</span>
+              </dd>
               <dt>The Complete Web Development Course</dt>
               <dd>The App Brewery, Angela Yu</dd>
-              <dd>In Progress <span>(50%)</span></dd>
+              <dd>
+                In Progress <span>(50%)</span>
+              </dd>
               <dt>The Complete Machine Learning & Data Science Bootcamp</dt>
               <dd>The App Brewery, Philipp Muellauer</dd>
               <dd>
@@ -140,17 +145,34 @@ export default function Resume() {
           </div>
         </Col>
         <div id="activities">
-        <h2>About Me</h2>
-        <hr/>
-        <h3>DnD</h3>
-        <h5>I only got into DnD several months ago but I have found myself really enjoting it. I love the character creation aspect and I have aslo been the Dungeon Master a couple of times. I really like expressing my creativity in that way as well!</h5>
-        <hr className="smallHr"/>
-        <h3>Crafts</h3>
-        <h5>Growing up my favorite time of year was Christmas. Not for the presents or the food, but because I got to make all of my close friends and family Christmas presents. I still do to this day and enjoy learning new skills and how to make different things. Currently I spend a lot of my time crotcheting or making candles.</h5>
-        <hr className="smallHr"/>
-        <h3>Cooking</h3>
-        <h5>I used to really hate cooking because I felt like it would be really hard. It's not always easy but I love trying new recipes out whenever I have the time. My favorite dishes I've made are gyoza from scratch, which takes a couple hours. I also have a huge sweet tooth so trying out new desserts is something I really enjoy doing.</h5>
-        <hr className="smallHr"/>
+          <h2>About Me</h2>
+          <hr />
+          <h3>DnD</h3>
+          <h5>
+            I only got into DnD several months ago but I have found myself
+            really enjoting it. I love the character creation aspect and I have
+            aslo been the Dungeon Master a couple of times. I really like
+            expressing my creativity in that way as well!
+          </h5>
+          <hr className="smallHr" />
+          <h3>Crafts</h3>
+          <h5>
+            Growing up my favorite time of year was Christmas. Not for the
+            presents or the food, but because I got to make all of my close
+            friends and family Christmas presents. I still do to this day and
+            enjoy learning new skills and how to make different things.
+            Currently I spend a lot of my time crotcheting or making candles.
+          </h5>
+          <hr className="smallHr" />
+          <h3>Cooking</h3>
+          <h5>
+            I used to really hate cooking because I felt like it would be really
+            hard. It's not always easy but I love trying new recipes out
+            whenever I have the time. My favorite dishes I've made are gyoza
+            from scratch, which takes a couple hours. I also have a huge sweet
+            tooth so trying out new desserts is something I really enjoy doing.
+          </h5>
+          <hr className="smallHr" />
         </div>
       </Row>
     </div>

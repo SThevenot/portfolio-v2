@@ -5,7 +5,7 @@ input[type="email"] {
   width: 50%;
   display: inline-block;
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 5px;
   border: 2px solid var(--dark2);
   margin: 10px 0;
 }
@@ -30,7 +30,7 @@ form {
   background-color: var(--dark2);
   width: 500px;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 label {
@@ -40,7 +40,7 @@ label {
 }
 
 textarea {
-  width: 250px;
+  width: 80%;
   border: 2px solid var(--dark1);
   border-radius: 5px;
 }
@@ -50,7 +50,7 @@ input {
 }
 
 #contactMe button {
-  width: 100%;
+  width: 30%;
   background-color: var(--light3);
   color: var(--light1);
   padding: 14px 20px;
@@ -63,4 +63,14 @@ input {
 #contactMe button:hover {
   background-color: var(--dark3);
   box-shadow: 2px 2px 5px var(--dark1);
+}
+
+.error-text {
+  color: red;
+  font-size: large;
+}
+
+.formTitle {
+  color: var(--light1);
+  margin: 10px
 }
