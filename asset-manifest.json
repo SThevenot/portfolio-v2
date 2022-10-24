@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b82cc6c5.css",
-    "main.js": "/static/js/main.166b0401.js",
-    "static/media/sarah.jpeg": "/static/media/sarah.88913f217176ed441fcd.jpeg",
-    "static/media/signup-screenshot.png": "/static/media/signup-screenshot.c3cbc192bd608927ad2f.png",
-    "static/media/brewfinder.png": "/static/media/brewfinder.09ea37b128124e202eac.png",
-    "static/media/hobbyspot.png": "/static/media/hobbyspot.00bf348815293b4143a6.png",
-    "static/media/Screenshot (23).png": "/static/media/Screenshot (23).faeadc85af48f55e0f86.png",
-    "static/media/sarah-thevenot-resume.pdf": "/static/media/sarah-thevenot-resume.722c53c79cad464a62aa.pdf",
-    "index.html": "/index.html",
-    "main.b82cc6c5.css.map": "/static/css/main.b82cc6c5.css.map",
-    "main.166b0401.js.map": "/static/js/main.166b0401.js.map"
+    "main.css": "/portfolio-v2/static/css/main.b82cc6c5.css",
+    "main.js": "/portfolio-v2/static/js/main.1acbce83.js",
+    "static/media/sarah.jpeg": "/portfolio-v2/static/media/sarah.88913f217176ed441fcd.jpeg",
+    "static/media/signup-screenshot.png": "/portfolio-v2/static/media/signup-screenshot.c3cbc192bd608927ad2f.png",
+    "static/media/brewfinder.png": "/portfolio-v2/static/media/brewfinder.09ea37b128124e202eac.png",
+    "static/media/hobbyspot.png": "/portfolio-v2/static/media/hobbyspot.00bf348815293b4143a6.png",
+    "static/media/Screenshot (23).png": "/portfolio-v2/static/media/Screenshot (23).faeadc85af48f55e0f86.png",
+    "static/media/sarah-thevenot-resume.pdf": "/portfolio-v2/static/media/sarah-thevenot-resume.722c53c79cad464a62aa.pdf",
+    "index.html": "/portfolio-v2/index.html",
+    "main.b82cc6c5.css.map": "/portfolio-v2/static/css/main.b82cc6c5.css.map",
+    "main.1acbce83.js.map": "/portfolio-v2/static/js/main.1acbce83.js.map"
   },
   "entrypoints": [
     "static/css/main.b82cc6c5.css",
-    "static/js/main.166b0401.js"
+    "static/js/main.1acbce83.js"
   ]
 }
