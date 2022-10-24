@@ -28,11 +28,9 @@
   box-shadow: 2px 2px 5px var(--dark1);
 }
 
-
 #education {
   color: var(--light2);
 }
-
 
 dl {
   margin-left: 30px;
@@ -57,11 +55,32 @@ th {
 }
 
 .horizontal {
-  height: 1000px;
+  height: 1150px;
   color: var(--dark1);
   background-color: var(--dark1);
   width: 5px;
   border: 2px solid var(--dark1);
   border-radius: 5px;
   margin-top: 120px;
+}
+
+span {
+  color: red;
+}
+
+h5 {
+  text-align: left;
+  margin-left: 30px;
+}
+
+#activities hr {
+  background-color: var(--dark1);
+  border-radius: 5px;
+  border: 3px solid var(--dark1);
+  width: 80%;
+  margin: 23px auto;
+}
+
+.smallHr {
+  width: 50% !important;
 }
