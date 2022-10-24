@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4d9f4d0.css",
-    "main.js": "/static/js/main.eaa92ae7.js",
+    "main.css": "/static/css/main.73447143.css",
+    "main.js": "/static/js/main.0e3b7480.js",
     "static/media/sarah.jpeg": "/static/media/sarah.88913f217176ed441fcd.jpeg",
     "static/media/signup-screenshot.png": "/static/media/signup-screenshot.c3cbc192bd608927ad2f.png",
     "static/media/brewfinder.png": "/static/media/brewfinder.09ea37b128124e202eac.png",
@@ -9,11 +9,11 @@
     "static/media/Screenshot (23).png": "/static/media/Screenshot (23).faeadc85af48f55e0f86.png",
     "static/media/sarah-thevenot-resume.pdf": "/static/media/sarah-thevenot-resume.722c53c79cad464a62aa.pdf",
     "index.html": "/index.html",
-    "main.a4d9f4d0.css.map": "/static/css/main.a4d9f4d0.css.map",
-    "main.eaa92ae7.js.map": "/static/js/main.eaa92ae7.js.map"
+    "main.73447143.css.map": "/static/css/main.73447143.css.map",
+    "main.0e3b7480.js.map": "/static/js/main.0e3b7480.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4d9f4d0.css",
-    "static/js/main.eaa92ae7.js"
+    "static/css/main.73447143.css",
+    "static/js/main.0e3b7480.js"
   ]
 }
