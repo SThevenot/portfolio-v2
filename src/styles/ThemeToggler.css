@@ -61,10 +61,10 @@ body[data-theme="light-theme"] {
   --dark1: #7895b2;
   --dark2: #aebdca;
   --dark3: #b7c4cf;
-  --med1: #f9ebc8;
+  --med1: #E8DFCA;
   --light3: #ede4e0;
   --light2: #f8ede3;
-  --light1: #fff8ea;
+  --light1: #ffffff;
   --backgroundImg1: url(https://media.tenor.com/_D-iPkf7QUQAAAAC/anime-aesthetic.gif);
   --gradients: #f8ede3, #ede4e0, #b7c4cf;
 }

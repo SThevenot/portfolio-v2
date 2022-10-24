@@ -43,6 +43,7 @@ dl {
 .table {
   background-color: var(--light3);
   width: 80% !important;
+  margin: auto 0px;
 }
 
 #skills {
@@ -53,4 +54,14 @@ dl {
 
 th {
   font-size: large;
+}
+
+.horizontal {
+  height: 1000px;
+  color: var(--dark1);
+  background-color: var(--dark1);
+  width: 5px;
+  border: 2px solid var(--dark1);
+  border-radius: 5px;
+  margin-top: 120px;
 }

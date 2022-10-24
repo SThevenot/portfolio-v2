@@ -54,3 +54,11 @@ img:hover {
 .cardStyle:hover {
   box-shadow: 4px 2px 2px var(--med1);
 }
+
+.cardStyle {
+  background-color: var(--med1) !important;
+}
+
+div.card-title {
+  color: var(--light1) !important;
+}
