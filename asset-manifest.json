@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.b82cc6c5.css",
-    "main.js": "/portfolio-v2/static/js/main.1acbce83.js",
+    "main.css": "/portfolio-v2/static/css/main.14e925ff.css",
+    "main.js": "/portfolio-v2/static/js/main.29102e84.js",
     "static/media/sarah.jpeg": "/portfolio-v2/static/media/sarah.88913f217176ed441fcd.jpeg",
     "static/media/signup-screenshot.png": "/portfolio-v2/static/media/signup-screenshot.c3cbc192bd608927ad2f.png",
     "static/media/brewfinder.png": "/portfolio-v2/static/media/brewfinder.09ea37b128124e202eac.png",
@@ -9,11 +9,11 @@
     "static/media/Screenshot (23).png": "/portfolio-v2/static/media/Screenshot (23).faeadc85af48f55e0f86.png",
     "static/media/sarah-thevenot-resume.pdf": "/portfolio-v2/static/media/sarah-thevenot-resume.722c53c79cad464a62aa.pdf",
     "index.html": "/portfolio-v2/index.html",
-    "main.b82cc6c5.css.map": "/portfolio-v2/static/css/main.b82cc6c5.css.map",
-    "main.1acbce83.js.map": "/portfolio-v2/static/js/main.1acbce83.js.map"
+    "main.14e925ff.css.map": "/portfolio-v2/static/css/main.14e925ff.css.map",
+    "main.29102e84.js.map": "/portfolio-v2/static/js/main.29102e84.js.map"
   },
   "entrypoints": [
-    "static/css/main.b82cc6c5.css",
-    "static/js/main.1acbce83.js"
+    "static/css/main.14e925ff.css",
+    "static/js/main.29102e84.js"
   ]
 }
