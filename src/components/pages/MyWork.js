@@ -6,6 +6,13 @@ import brewfinder from "../../images/brewfinder.png";
 import fitTheMood from "../../images/signup-screenshot.png";
 import hobbySpot from "../../images/hobbyspot.png";
 import timedQuiz from "../../images/Screenshot (23).png";
+import employeeTracker from "../../images/employee-tracker.png";
+import noteTaker from "../../images/note-taker.png";
+import randomPassword from "../../images/random-password.png";
+import readmeGenerator from "../../images/readme-generator.png";
+import socialNetwork from "../../images/social-network.png";
+import teamGenerator from "../../images/team-generator.png";
+import workScheduler from "../../images/work-scheduler.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { CardGroup } from "react-bootstrap";
@@ -91,7 +98,7 @@ function MyWork() {
         </Col>
         <Col sm="12" md="6" lg="4" xl="3">
           <Card className="m-3 cardStyle">
-            <Card.Img variant="top" src={fitTheMood} />
+            <Card.Img variant="top" src={noteTaker} />
             <Card.Body>
               <Card.Title>Note-Taker</Card.Title>
               <Card.Text>
@@ -115,7 +122,7 @@ function MyWork() {
         </Col>
         <Col sm="12" md="6" lg="4" xl="3">
           <Card className="m-3 cardStyle">
-            <Card.Img variant="top" src={fitTheMood} />
+            <Card.Img variant="top" src={employeeTracker} />
             <Card.Body>
               <Card.Title>Employee Tracker</Card.Title>
               <Card.Text>
@@ -159,7 +166,7 @@ function MyWork() {
         </Col>
         <Col sm="12" md="6" lg="4" xl="3">
           <Card className="m-3 cardStyle">
-            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Img variant="top" src={readmeGenerator} />
             <Card.Body>
               <Card.Title>README.md Generator</Card.Title>
               <Card.Text>
@@ -177,7 +184,7 @@ function MyWork() {
         </Col>
         <Col sm="12" md="6" lg="4" xl="3">
           <Card className="m-3 cardStyle">
-            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Img variant="top" src={randomPassword} />
             <Card.Body>
               <Card.Title>Random Password Generator</Card.Title>
               <Card.Text>
@@ -202,7 +209,7 @@ function MyWork() {
         </Col>
         <Col sm="12" md="6" lg="4" xl="3">
           <Card className="m-3 cardStyle">
-            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Img variant="top" src={socialNetwork} />
             <Card.Body>
               <Card.Title>Back-End Social Network</Card.Title>
               <Card.Text>
@@ -220,7 +227,7 @@ function MyWork() {
         </Col>
         <Col sm="12" md="6" lg="4" xl="3">
           <Card className="m-3 cardStyle">
-            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Img variant="top" src={teamGenerator} />
             <Card.Body>
               <Card.Title>Work Team Generator</Card.Title>
               <Card.Text>
@@ -245,7 +252,7 @@ function MyWork() {
         </Col>
         <Col sm="12" md="6" lg="4" xl="3">
           <Card className="m-3 cardStyle">
-            <Card.Img variant="top" src={timedQuiz} />
+            <Card.Img variant="top" src={workScheduler} />
             <Card.Body>
               <Card.Title>Work Scheduler</Card.Title>
               <Card.Text>
