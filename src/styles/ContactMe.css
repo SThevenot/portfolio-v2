@@ -43,6 +43,7 @@ textarea {
   width: 80%;
   border: 2px solid var(--dark1);
   border-radius: 5px;
+  height: 100px;
 }
 
 input {
@@ -73,4 +74,10 @@ input {
 .formTitle {
   color: var(--light1);
   margin: 10px
+}
+
+#successP {
+  color: var(--light1);
+  font-size: larger;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
 }

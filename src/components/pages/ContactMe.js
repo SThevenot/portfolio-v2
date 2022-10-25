@@ -1,89 +1,51 @@
-import React, { useState } from "react";
-import "../../styles/ContactMe.css";
+/** @format */
 
-import { validateEmail } from "../../utils/helpers";
+import React, { useRef } from "react";
+import "../../styles/ContactMe.css";
+import emailjs from "emailjs-com";
+import { Alert } from "react-bootstrap";
 
 function ContactMe() {
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState('');
+  const form = useRef();
 
-  const handleInputChange = (e) => {
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    if (inputType === 'email') {
-      setEmail(inputValue);
-    } else if (inputType === "name") {
-      setName(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-
-
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required`)
-      } else {
-        setErrorMessage("");
-      }
-    
+    emailjs
+      .sendForm(
+        "service_cd6a3ku",
+        "template_0xwnvoc",
+        form.current,
+        "pbV0nbB-ZGpfOKdZ0"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          document.getElementById("successP").innerHTML = "Success! Message Sent!";
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
-  const handleFormSubmit = (e) => {
-
-  e.preventDefault();
-
-  if (!validateEmail(email)) {
-    const isValid = validateEmail(e.target.value);
-    if(!isValid) {
-    setErrorMessage("Enter a valid email please")
-    } else {
-      setErrorMessage("");
-    }
-  }
-
-  setName('');
-  setMessage('');
-  setEmail('');
-  };
-
-    return (
-      <div id="contactMe">
-        <form action="mailto:sktmh007@gmail.com" method="post">
-          <h1 className="formTitle">Contact Me</h1>
-        <label for="name">Name</label>
-        <input
-          value={name}
-          type="text"
-          name="name"
-          placeholder="your name"
-          onBlur={handleInputChange}
-          onChange={handleInputChange}
-        />
-        <label for="email">Email</label>
-        <input
-          value={email}
-          name="email"
-          onBlur={handleInputChange}
-          type="email"
-          placeholder="your email"
-          onChange={handleInputChange}
-        />
-        <label for="message">Message</label>
-        <textarea name="message" id="message" cols="50" rows="10" value={message} onBlur={handleInputChange} onChange={handleInputChange}></textarea>
-
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+  return (
+    <div id="contactMe">
+      <form ref={form} onSubmit={sendEmail}>
+        <h1 className="formTitle">Contact Me</h1>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="your name" />
+        <label>Email</label>
+        <input name="email" type="email" placeholder="your email" />
+        <label>Message</label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit" value="Send" id="formBtn">
+          Submit
+        </button>
+        <p id="successP"></p>
       </form>
-      </div>
-    )
+    </div>
+  );
 }
 
 export default ContactMe;
