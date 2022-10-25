@@ -32,8 +32,8 @@ export default function Resume() {
             </dl>
             <br />
           </div>
-          <h1 className="skillsH1">Skills</h1>
           <div id="skills">
+          <h1 className="skillsH1">Skills</h1>
             <Table striped bordered hover className="table mt-0">
               <thead>
                 <tr>
@@ -69,7 +69,7 @@ export default function Resume() {
               </tbody>
             </Table>
           </div>
-          <div>
+          <div id="certificates">
             <dl>
               <h1>Certificates</h1>
               <dt>Full-Stack Coding Bootcamp </dt>
@@ -90,7 +90,7 @@ export default function Resume() {
             </dl>
           </div>
         </Col>
-        <Col xs={1}>
+        <Col xs={1} id="horizontalCol">
           <div className="horizontal"></div>
         </Col>
         <Col>

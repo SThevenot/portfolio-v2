@@ -54,9 +54,10 @@
   --light3: #c2c5aa;
   --light2: #f0ead2;
   --light1: #f8ede3;
-  --backgroundImg1: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
+--backgroundImg1: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
   --gradients: #f0ead2, #c2c5aa, #C8DBBE;
   --opaqueDark1: rgba(57, 81, 68, 0.7);
+  --backgroundImg2: url(https://i.pinimg.com/736x/66/88/51/668851a0f704fee447910bf983060d45.jpg);
 }
 
 body[data-theme="light-theme"] {
@@ -68,6 +69,7 @@ body[data-theme="light-theme"] {
   --light2: #f8ede3;
   --light1: #ffffff;
   --backgroundImg1: url(https://media.tenor.com/_D-iPkf7QUQAAAAC/anime-aesthetic.gif);
+  --backgroundImg2: url(http://papers.co/wallpaper/papers.co-bl69-art-anime-sky-34-iphone6-plus-wallpaper.jpg);
   --gradients: #f8ede3, #ede4e0, #b7c4cf;
   --opaqueDark1: rgba(120, 149, 178, 0.7);
 }
@@ -83,6 +85,7 @@ body[data-theme="forest-theme"] {
   --backgroundImg1: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
   --gradients: #f0ead2, #c2c5aa, #C8DBBE;
   --opaqueDark1: rgba(57, 81, 68, 0.7);
+  --backgroundImg2: url(https://i.pinimg.com/736x/66/88/51/668851a0f704fee447910bf983060d45.jpg);
 }
 
 body[data-theme="dark-theme"] {
@@ -96,6 +99,7 @@ body[data-theme="dark-theme"] {
   --backgroundImg1: url(https://thumbs.gfycat.com/CalculatingUnfinishedAmericanbadger-max-1mb.gif);
   --gradients: #918599, #2B3464, #161B33;
   --opaqueDark1: rgba(13, 12, 29, 0.7);
+  --backgroundImg2: url(https://w0.peakpx.com/wallpaper/479/300/HD-wallpaper-anime-night-starry-sky-milky-way-scenic-anime.jpg);
 }
 
 body[data-theme="sunset-theme"] {
@@ -109,4 +113,5 @@ body[data-theme="sunset-theme"] {
   --backgroundImg1: url(https://i.pinimg.com/originals/8d/8c/5b/8d8c5b8ebf3409c71bf7367ab09277a8.gif);
   --gradients: #FEE0C0, #FF87B2, #7A4069;
   --opaqueDark1: rgba(81, 50, 82, 0.7);
+  --backgroundImg2: url(https://images.hdqwalls.com/download/anime-sunset-scene-b8-1242x2688.jpg);
 }
