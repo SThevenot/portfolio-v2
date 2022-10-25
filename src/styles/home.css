@@ -23,13 +23,6 @@
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
 }
 
-.sarahImg {
-  border-radius: 30%;
-  border: 2px solid var(--dark1);
-  margin-bottom: 50px;
-  width: auto;
-}
-
 .animation {
   color: var(--light1);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
@@ -45,4 +38,19 @@
   .sarahImg {
     width: 75%;
   }
+}
+
+#skillIconsDiv {
+  text-align: center;
+  background-color: var(--dark2);
+  opacity: .9;
+  border-radius: 5px;
+  margin: 30px;
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+}
+
+#skillIconsDiv img{
+  width: 5% !important;
 }

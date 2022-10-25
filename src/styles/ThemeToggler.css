@@ -8,6 +8,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  opacity: .8;
 }
 
 #themeToggler h1 {
@@ -22,7 +23,7 @@
 }
 
 #themeToggler button {
-  margin: auto 20px;
+  margin: 10px 20px;
 }
 
 #lightBtn {

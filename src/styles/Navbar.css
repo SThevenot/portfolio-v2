@@ -4,6 +4,7 @@
 nav {
   display: flex;
   background-color: var(--dark1);
+  opacity: .9;
   height: 100px;
   position: fixed;
   width: 100%;

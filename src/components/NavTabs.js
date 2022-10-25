@@ -60,9 +60,6 @@ class NavTabs extends React.Component {
                   <NavLink to="/portfolio-v2">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/themetoggler">Theme Toggler</NavLink>
-                </li>
-                <li>
                   <NavLink to="/resume">Resume</NavLink>
                 </li>
                 <li>
