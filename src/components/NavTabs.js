@@ -33,14 +33,14 @@ class NavTabs extends React.Component {
     const isDesktop = this.state.isDesktop;
 
     return (
-      <nav>
+      <>
         {isDesktop ? (
           <>
-            <Navbar>
+            <Navbar className="justify-content-end">
               <Container>
                 <Navbar.Brand id="title"><NavLink to="/portfolio-v2">Sarah Thevenot</NavLink></Navbar.Brand>
-                <Nav className="me-auto">
-                  <ul>
+                <Nav>
+                  <ul id="list">
                   <NavLink to="/resume" className="links">Resume</NavLink>
                   <NavLink to="/projects" className="links">Projects</NavLink>
                   <NavLink to="/contact" className="links">Contact Me</NavLink>
@@ -72,7 +72,7 @@ class NavTabs extends React.Component {
             </Menu>
           </>
         )}
-      </nav>
+      </>
     );
   }
 }

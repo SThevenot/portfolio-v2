@@ -2,14 +2,12 @@
 
 
 nav {
-  display: flex;
-  background-color: var(--dark1);
-  opacity: .9;
+  background-color: var(--opaqueDark1) ;
   height: 100px;
-  position: fixed;
+  position: fixed !important;
   width: 100%;
-  top: 0px;
-  z-index: 10;
+  top: 0px ;
+  z-index: 100 !important;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -18,29 +16,22 @@ nav {
   width: 25%;
   text-decoration: none;
   color: var(--dark3);
-  padding-top: 12px;
   padding-left: 30px;
   font-size: 30px;
 }
 
-
-nav ul {
-  display: inline-block;
-  margin-right: 20px;
-  position: relative;
-  text-align: right;
+#list {
+  margin: 0 auto !important;
+  width: 100% !important;
+  
 }
 
 nav ul li,
 .links {
   list-style: none;
   text-align: center;
-  font-size: large;
-  padding: 15px;
-}
-
-div .me-auto {
-  margin: 0px !important;
+  font-size: larger;
+  padding: 0px 15px;
 }
 
 nav a:hover {

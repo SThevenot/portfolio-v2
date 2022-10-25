@@ -79,6 +79,11 @@ export default function Home() {
           alt="npm"
         ></img>
       </div>
+      <div id="aboutMeText">
+          <h3>
+            My name is Sarah Thevenot and I am a full-stack developer. I am determined to learn and grow as I continue my coding journey.
+          </h3>
+      </div>
     </div>
   );
 }

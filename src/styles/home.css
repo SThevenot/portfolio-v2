@@ -42,8 +42,7 @@
 
 #skillIconsDiv {
   text-align: center;
-  background-color: var(--dark2);
-  opacity: .9;
+  background-color: var(--opaqueDark1);
   border-radius: 5px;
   margin: 30px;
   display: flex;
@@ -53,4 +52,16 @@
 
 #skillIconsDiv img{
   width: 5% !important;
+}
+
+#aboutMeText {
+  width: 50%;
+  margin: 50px;
+  color: var(--light1);
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
+  text-align: center;
+  border: 2px solid var(med1);
+  background-color: var(--opaqueDark1);
+  border-radius: 5px;
+  padding: 10px;
 }
