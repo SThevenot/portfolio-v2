@@ -54,7 +54,7 @@
   --light3: #c2c5aa;
   --light2: #f0ead2;
   --light1: #f8ede3;
---backgroundImg1: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
+--backgroundImg1: url(https://64.media.tumblr.com/bb99d73b82360e969616fa10ee43c9ab/4f23868a1e3de9a5-ea/s540x810/7831a45c5a750047e6bc0e12f5af7185252865ba.gif);
   --gradients: #f0ead2, #c2c5aa, #C8DBBE;
   --opaqueDark1: rgba(57, 81, 68, 0.7);
   --backgroundImg2: url(https://i.pinimg.com/736x/66/88/51/668851a0f704fee447910bf983060d45.jpg);
@@ -68,7 +68,7 @@ body[data-theme="light-theme"] {
   --light3: #ede4e0;
   --light2: #f8ede3;
   --light1: #ffffff;
-  --backgroundImg1: url(https://media.tenor.com/_D-iPkf7QUQAAAAC/anime-aesthetic.gif);
+  --backgroundImg1: url(https://i.pinimg.com/originals/d8/45/61/d84561a7b1195d7f02e8779e015a02eb.gif);
   --backgroundImg2: url(http://papers.co/wallpaper/papers.co-bl69-art-anime-sky-34-iphone6-plus-wallpaper.jpg);
   --gradients: #f8ede3, #ede4e0, #b7c4cf;
   --opaqueDark1: rgba(120, 149, 178, 0.7);
@@ -96,7 +96,7 @@ body[data-theme="dark-theme"] {
   --light3: #685D6F;
   --light2: #918599;
   --light1: #FBF5EE;
-  --backgroundImg1: url(https://thumbs.gfycat.com/CalculatingUnfinishedAmericanbadger-max-1mb.gif);
+  --backgroundImg1: url(https://media3.giphy.com/media/3o6Zt93byJYeHqvrwc/200.gif);
   --gradients: #918599, #2B3464, #161B33;
   --opaqueDark1: rgba(13, 12, 29, 0.7);
   --backgroundImg2: url(https://w0.peakpx.com/wallpaper/479/300/HD-wallpaper-anime-night-starry-sky-milky-way-scenic-anime.jpg);
@@ -110,8 +110,8 @@ body[data-theme="sunset-theme"] {
   --light3: #FFE898;
   --light2: #FEE0C0;
   --light1: #FAF0CA;
-  --backgroundImg1: url(https://i.pinimg.com/originals/8d/8c/5b/8d8c5b8ebf3409c71bf7367ab09277a8.gif);
+  --backgroundImg1: url(https://i.pinimg.com/originals/63/02/66/63026611a4c6b5d918c318c68c8fe97d.gif);
   --gradients: #FEE0C0, #FF87B2, #7A4069;
   --opaqueDark1: rgba(81, 50, 82, 0.7);
-  --backgroundImg2: url(https://images.hdqwalls.com/download/anime-sunset-scene-b8-1242x2688.jpg);
+  --backgroundImg2: url(https://64.media.tumblr.com/62418054e978e2a88457428ef090d6d1/tumblr_pn1d99Bo6J1qa9gmgo1_1280.jpg);
 }
