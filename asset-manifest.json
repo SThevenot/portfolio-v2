@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.007ab551.css",
-    "main.js": "/portfolio-v2/static/js/main.cadea32c.js",
+    "main.css": "/portfolio-v2/static/css/main.b0f264b5.css",
+    "main.js": "/portfolio-v2/static/js/main.241a99e5.js",
     "static/media/social-network.png": "/portfolio-v2/static/media/social-network.14a5d12824989b2fa301.png",
     "static/media/readme-generator.png": "/portfolio-v2/static/media/readme-generator.c624d1b283e8863dc4c7.png",
     "static/media/employee-tracker.png": "/portfolio-v2/static/media/employee-tracker.ea6b34074d23d26a0674.png",
@@ -15,11 +15,11 @@
     "static/media/Screenshot (23).png": "/portfolio-v2/static/media/Screenshot (23).faeadc85af48f55e0f86.png",
     "static/media/sarah-thevenot-resume.pdf": "/portfolio-v2/static/media/sarah-thevenot-resume.722c53c79cad464a62aa.pdf",
     "index.html": "/portfolio-v2/index.html",
-    "main.007ab551.css.map": "/portfolio-v2/static/css/main.007ab551.css.map",
-    "main.cadea32c.js.map": "/portfolio-v2/static/js/main.cadea32c.js.map"
+    "main.b0f264b5.css.map": "/portfolio-v2/static/css/main.b0f264b5.css.map",
+    "main.241a99e5.js.map": "/portfolio-v2/static/js/main.241a99e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.007ab551.css",
-    "static/js/main.cadea32c.js"
+    "static/css/main.b0f264b5.css",
+    "static/js/main.241a99e5.js"
   ]
 }
