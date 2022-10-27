@@ -24,7 +24,7 @@ function MyWork() {
   return (
     <section id="myWork">
       <Row>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={fitTheMood} />
             <Card.Body>
@@ -48,7 +48,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={hobbySpot} />
             <Card.Body>
@@ -72,7 +72,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={brewfinder} />
             <Card.Body>
@@ -96,7 +96,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={noteTaker} />
             <Card.Body>
@@ -120,7 +120,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={employeeTracker} />
             <Card.Body>
@@ -139,7 +139,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={timedQuiz} />
             <Card.Body>
@@ -164,7 +164,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={readmeGenerator} />
             <Card.Body>
@@ -182,7 +182,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={randomPassword} />
             <Card.Body>
@@ -207,7 +207,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={socialNetwork} />
             <Card.Body>
@@ -225,7 +225,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={teamGenerator} />
             <Card.Body>
@@ -250,7 +250,7 @@ function MyWork() {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm="12" md="6" lg="4" xl="3">
+        <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
           <Card className="m-3 cardStyle">
             <Card.Img variant="top" src={workScheduler} />
             <Card.Body>

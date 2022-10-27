@@ -14,14 +14,10 @@ Col {
   justify-content: center;
 }
 
-
 #myWork img {
   border: 2px solid var(--dark3);
-  width: 400px;
-}
-
-img:hover {
-  box-shadow: 2px 2px 5px var(--dark1);
+  width: auto;
+  border-radius: 10px;
 }
 
 #myWork h1 {
@@ -44,15 +40,13 @@ img:hover {
 /* p elements */
 
 #myWork p {
-  color: var(--dark2);
+  color: var(--light2);
   font-size: large;
   text-align: center;
   padding: 10px;
   margin: 0;
-}
-
-.cardStyle:hover {
-  box-shadow: 4px 2px 2px var(--med1);
+  background-color: var(--opaqueDark1);
+  border-radius: 5px;
 }
 
 .cardStyle {
@@ -61,4 +55,15 @@ img:hover {
 
 div.card-title {
   color: var(--light1) !important;
+  text-shadow: 1px 0 0 var(--dark1), 0 -1px 0 var(--dark1), 0 1px 0 var(--dark1),
+    -1px 0 0 var(--dark1);
+}
+
+#myWork a {
+  margin: 12px;
+}
+
+.cardStyle:hover {
+  box-shadow: 8px 4px 5px var(--dark1);
+
 }
