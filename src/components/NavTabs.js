@@ -38,7 +38,7 @@ class NavTabs extends React.Component {
           <>
             <Navbar className="justify-content-end">
               <Container>
-                <Navbar.Brand id="title"><NavLink to="/portfolio-v2">Sarah Thevenot</NavLink></Navbar.Brand>
+                <Navbar.Brand ><NavLink to="/portfolio-v2" id="title">Sarah Thevenot</NavLink></Navbar.Brand>
                 <Nav>
                   <ul id="list">
                   <NavLink to="/resume" className="links">Resume</NavLink>
@@ -50,27 +50,27 @@ class NavTabs extends React.Component {
             </Navbar>
           </>
         ) : (
-          <>
+          <div id="hamburgerNav">
             <h1 id="title">
-              <NavLink to="/portfolio-v2">Sarah Thevenot</NavLink>
+              <NavLink to="/portfolio-v2" id="title">Sarah Thevenot</NavLink>
             </h1>
             <Menu right>
-              <ul>
+              <ul id="list">
                 <li>
-                  <NavLink to="/portfolio-v2">Home</NavLink>
+                  <NavLink to="/portfolio-v2" className="links">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/resume">Resume</NavLink>
+                  <NavLink to="/resume" className="links">Resume</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/projects">My Work</NavLink>
+                  <NavLink to="/projects" className="links">My Work</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact">Contact Me</NavLink>
+                  <NavLink to="/contact" className="links">Contact Me</NavLink>
                 </li>
               </ul>
             </Menu>
-          </>
+          </div>
         )}
       </>
     );

@@ -1,52 +1,50 @@
 /** @format */
 
-
-nav {
-  background-color: var(--opaqueDark1) ;
-  height: 100px;
+nav,
+#hamburgerNav {
+  background-color: var(--opaqueDark1);
+  height: 80px;
   position: fixed !important;
   width: 100%;
-  top: 0px ;
+  top: 0px;
+  display: flex;
   z-index: 100 !important;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
 #title {
-  width: 25%;
+  width: 50%;
   text-decoration: none;
   color: var(--dark3);
   padding-left: 30px;
   font-size: 30px;
+  padding-top: 3%;
 }
 
 #list {
   margin: 0 auto !important;
   width: 100% !important;
-  
+  list-style-type: none;
+  padding-top: 10px;
 }
 
-nav ul li,
 .links {
   list-style: none;
   text-align: center;
   font-size: larger;
   padding: 0px 15px;
-}
-
-nav a:hover {
-  color: var(--med1);
-  text-shadow: 2px 2px var(--dark3);
-}
-
-a {
   text-decoration: none;
   color: var(--med1) !important;
 }
 
-a:hover {
+.links:hover {
+  color: var(--med1);
+  text-shadow: 2px 2px var(--dark3);
   text-shadow: 2px 2px 5px var(--dark3);
 }
+
+/* HAMBURGER BAR SECTION */
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -54,20 +52,18 @@ a:hover {
   width: 36px;
   height: 30px;
   right: 36px;
-  top: 36px;
+  top: 3%;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: var(--med1);
+  background-color: var(--dark3);
   border-radius: 5px;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: var(--dark3);
-  box-shadow: 2px 2px 5px var(--dark3);
-
+  background: var(--light3);
 }
 
 /* Position and sizing of clickable cross button */
@@ -78,9 +74,7 @@ a:hover {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: var(--dark2) !important;
-  border: var(--light1) 2px solid;
-
+  background: var(--med1);
 }
 
 /*
@@ -94,20 +88,22 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: var(--dark1);
+  background: var(--dark3);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  display: flex;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: var(--med1);
+  fill: var(--dark3);
 }
 
 /* Wrapper for item list */
 .bm-item-list {
   color: var(--med1);
   padding: 0.8em;
+  background-color: var(--dark3);
 }
 
 /* Individual item */
