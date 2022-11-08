@@ -143,7 +143,7 @@ export default function Resume() {
               </dd>
             </dl>
           </div>
-          <div id="activities">
+          {/* <div id="activities">
           <h2>About Me</h2>
           <hr />
           <h3>DnD</h3>
@@ -172,7 +172,7 @@ export default function Resume() {
             tooth so trying out new desserts is something I really enjoy doing.
           </h5>
           <hr className="smallHr" />
-        </div>
+        </div> */}
         </Col>
       </Row>
     </div>
