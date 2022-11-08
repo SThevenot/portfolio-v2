@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       <div id="skillIconsDiv">
       <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://reactjs.org/" target="_blank">
           <span className="nameText">React.js</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg"
@@ -40,7 +40,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://www.javascript.com/" target="_blank">
           <span className="nameText">Javascript</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/javascript.svg"
@@ -49,7 +49,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
           <span className="nameText">CSS</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/css.svg"
@@ -58,7 +58,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">
           <span className="nameText">HTML</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/html.svg"
@@ -67,7 +67,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://nodejs.org/en/" target="_blank">
           <span className="nameText">Node.js</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/nodejs.svg"
@@ -76,7 +76,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://expressjs.com/" target="_blank">
           <span className="nameText">Express.js</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/express.svg"
@@ -94,7 +94,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://jestjs.io/" target="_blank">
           <span className="nameText">Jest</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/jest.svg"
@@ -103,7 +103,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://www.mongodb.com/" target="_blank">
           <span className="nameText">MongoDB</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/mongodb.svg"
@@ -112,7 +112,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://www.mysql.com/" target="_blank">
           <span className="nameText">mySQL</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/mysql.svg"
@@ -121,7 +121,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://getbootstrap.com/" target="_blank">
           <span className="nameText">Bootstrap</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/bootstrap.svg"
@@ -130,7 +130,7 @@ export default function Home() {
         </a>
         </button>
         <button>
-        <a className="nameHover" href="https://graphql.org/" target="_blank">
+        <a className="nameHover" href="https://www.npmjs.com/" target="_blank">
           <span className="nameText">npm</span>
         <img
           src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/npm.svg"
