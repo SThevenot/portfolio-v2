@@ -2,7 +2,7 @@
 
 import React from "react";
 import "../../styles/Resume.css";
-import myResume from "../../files/sarah-thevenot-resume.pdf";
+import myResume from "../../files/Sarah Thevenot's Resume-hackerresume (1).pdf";
 import { Table, Row, Col } from "react-bootstrap";
 
 export default function Resume() {
@@ -33,7 +33,7 @@ export default function Resume() {
             <br />
           </div>
           <div id="skills">
-          <h1 className="skillsH1">Skills</h1>
+            <h1 className="skillsH1">Skills</h1>
             <Table striped bordered hover className="table mt-0">
               <thead>
                 <tr>
@@ -143,8 +143,7 @@ export default function Resume() {
               </dd>
             </dl>
           </div>
-        </Col>
-        <div id="activities">
+          <div id="activities">
           <h2>About Me</h2>
           <hr />
           <h3>DnD</h3>
@@ -174,6 +173,7 @@ export default function Resume() {
           </h5>
           <hr className="smallHr" />
         </div>
+        </Col>
       </Row>
     </div>
   );
