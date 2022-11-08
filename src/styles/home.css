@@ -50,8 +50,8 @@
   justify-content: space-evenly;
 }
 
-#skillIconsDiv img{
-  width: 5% !important;
+#skillIconsDiv a img {
+  width: 100% !important;
 }
 
 #aboutMeText {
@@ -64,4 +64,33 @@
   background-color: var(--opaqueDark1);
   border-radius: 5px;
   padding: 10px;
+}
+.nameHover {
+  position: relative;
+  display: inline-block;  
+}
+.nameText {
+  visibility: hidden;
+  background-color: var(--dark1);
+  color: #fff;
+  text-align: center !important;
+  border-radius: 6px;
+  padding: 10px !important;
+  font-size: small;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.nameHover:hover .nameText {
+  visibility: visible;
+}
+
+#skillIconsDiv button {
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  width: 10%;
 }
