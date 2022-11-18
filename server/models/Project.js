@@ -3,6 +3,11 @@
 const { Schema, model } = require("mongoose");
 
 const projectSchema = new Schema({
+  projectName: {
+    type: String,
+    required: true,
+    trim: true,
+  },
   projectDescription: {
     type: String,
     required: "You need to leave a project!",

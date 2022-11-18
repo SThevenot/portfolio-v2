@@ -3,6 +3,7 @@ const {gql} = require("apollo-server-express");
 const typeDefs = gql`
 type Project {
     _id: ID
+    projectName: String
     projectDescription: String
     projectImg: String
     ProjectGithub: String
@@ -16,7 +17,7 @@ type Query {
 }
 
 type Mutation {
-    addProject(projectDescription: String!, projectGithub: String!): Project
+    addProject(projectName: String!, projectGithub: String!): Project
     removeProject(projectId: ID!): Project
 }
 `
