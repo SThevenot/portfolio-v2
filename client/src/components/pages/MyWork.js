@@ -29,7 +29,7 @@ const MyWork = () => {
   return (
     <section>
       <Row>
-        <ProjectsList projects={projects} />
+        <ProjectsList projects={projects}/>
       </Row>
     </section>
     // <section id="myWork">
