@@ -67,3 +67,10 @@ div.card-title {
   box-shadow: 8px 4px 5px var(--dark1);
 
 }
+
+.noDemoBtn {
+  border: 2px solid var(--dark3) !important;
+  color: var(--light3) !important;
+  background-color: var(--dark2) !important;
+  margin: 12px;
+}
