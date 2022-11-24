@@ -1,11 +1,13 @@
 /** @format */
 
-import http from "../http-common";
-
-class ProjectDataService {
-  getAll() {
-    return http.get("/api/projects/projectsList");
+import axios from "axios";
+class ProjectService {
+  getProjects() {
+    return axios.get(`http://localhost:3001/api/projects/projectsList`, {
+      headers: {
+        "Access-Control-Allow-Origin": true,
+      },
+    });
   }
 }
-
-export default new ProjectDataService();
+export default new ProjectService();

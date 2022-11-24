@@ -20,33 +20,37 @@ import { FaGithub } from "react-icons/fa";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import axios from "axios";
+import ProjectService from "../../services/projectService";
 
-const MyWork = () => {
-  const url = "localhost:3001/api/projects/projectsList";
+export default function MyWork() {
   const [projects, setProjects] = useState([]);
+
   useEffect(() => {
-    axios.get(url).then((res) => {
-      setProjects(res.data);
-    });
+    const fetchData = async () => {
+      try {
+        const response = await ProjectService.getProjects();
+        setProjects(response.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchData();
   }, []);
+  console.log(projects);
+
   return (
-    <section>
-      <Row>
-        <div>Hello</div>
-        {this.state.projects.map((project) => (
-          <Col xs="12" sm="6" md="4" lg="3" className="p-4" id="columnStyle">
-            <Card key={project.id} id="cardStyle">
-              {/* <Card.Img src={project.name} id="cardImgStyle"></Card.Img> */}
-              <Card.Title id="movieTitleStyle">{project.name}</Card.Title>
-              {/* <Card.Text id="movieDateStyle">{project.projectGithub}</Card.Text> */}
-            </Card>
-          </Col>
-        ))}
-      </Row>
-    </section>
+    <div className="App">
+      {projects.map((project) => (
+        <Col xs="12" sm="6" md="4" lg="3" className="p-4" id="columnStyle">
+          <Card key={project.id} id="cardStyle">
+            <Card.Title id="movieTitleStyle">{project.projectName}</Card.Title>
+            <Card.Text id="movieDateStyle">{project.name}</Card.Text>
+          </Card>
+        </Col>
+      ))}
+    </div>
   );
-};
-export default MyWork();
+}
 // <section id="myWork">
 //   <Row>
 //     <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
