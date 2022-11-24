@@ -1,25 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.169c899b.css",
-    "main.js": "/portfolio-v2/static/js/main.d142915a.js",
-    "static/media/social-network.png": "/portfolio-v2/static/media/social-network.14a5d12824989b2fa301.png",
-    "static/media/readme-generator.png": "/portfolio-v2/static/media/readme-generator.c624d1b283e8863dc4c7.png",
-    "static/media/employee-tracker.png": "/portfolio-v2/static/media/employee-tracker.ea6b34074d23d26a0674.png",
-    "static/media/work-scheduler.png": "/portfolio-v2/static/media/work-scheduler.6ba67a63fbe2d0a2eb5a.png",
-    "static/media/signup-screenshot.png": "/portfolio-v2/static/media/signup-screenshot.c3cbc192bd608927ad2f.png",
-    "static/media/brewfinder.png": "/portfolio-v2/static/media/brewfinder.09ea37b128124e202eac.png",
-    "static/media/hobbyspot.png": "/portfolio-v2/static/media/hobbyspot.00bf348815293b4143a6.png",
-    "static/media/random-password.png": "/portfolio-v2/static/media/random-password.3e73efb4779990d26a33.png",
-    "static/media/team-generator.png": "/portfolio-v2/static/media/team-generator.b7b11a2325dc716cf213.png",
-    "static/media/note-taker.png": "/portfolio-v2/static/media/note-taker.4069d4030959d458711d.png",
-    "static/media/Screenshot (23).png": "/portfolio-v2/static/media/Screenshot (23).faeadc85af48f55e0f86.png",
+    "main.css": "/portfolio-v2/static/css/main.626c14f0.css",
+    "main.js": "/portfolio-v2/static/js/main.26eb0280.js",
     "static/media/Sarah Thevenot's Resume-hackerresume (1).pdf": "/portfolio-v2/static/media/Sarah Thevenot's Resume-hackerresume (1).f85ba3d65875b64747f2.pdf",
     "index.html": "/portfolio-v2/index.html",
-    "main.169c899b.css.map": "/portfolio-v2/static/css/main.169c899b.css.map",
-    "main.d142915a.js.map": "/portfolio-v2/static/js/main.d142915a.js.map"
+    "main.626c14f0.css.map": "/portfolio-v2/static/css/main.626c14f0.css.map",
+    "main.26eb0280.js.map": "/portfolio-v2/static/js/main.26eb0280.js.map"
   },
   "entrypoints": [
-    "static/css/main.169c899b.css",
-    "static/js/main.d142915a.js"
+    "static/css/main.626c14f0.css",
+    "static/js/main.26eb0280.js"
   ]
 }
