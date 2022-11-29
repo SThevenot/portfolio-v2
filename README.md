@@ -2,10 +2,14 @@
 
 <h1 align="center"> My Portfolio </h1>
   <p align="center">
-  <img src="https://img.shields.io/badge/license-CSS-green"/>
+  <img src="https://img.shields.io/badge/license-CSS-pink"/>
     <img src="https://img.shields.io/badge/license-JavaScript-yellow"/>
-  <img src="https://img.shields.io/badge/license-React-blue"/>
-
+    <img src="https://img.shields.io/badge/license-React-blue"/>
+    <img src="https://img.shields.io/badge/license-Apollo-purple"/>
+      <img src="https://img.shields.io/badge/license-GraphQL-green"/>
+      <img src="https://img.shields.io/badge/license-MongoDB-teal"/>
+      <img src="https://img.shields.io/badge/license-Express-black"/>
+      <img src="https://img.shields.io/badge/license-Express-orange"/>
   </p>
 
 ## Description⭐
@@ -41,7 +45,7 @@
 
 ## Technology Used🔧
 
-#### This project used CSS,JavaScript,React.
+#### This project used CSS, JavaScript, React, Express, Nodejs, MongDB, Apollo, and GraphQL.
 
 ---
 
