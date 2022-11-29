@@ -2,14 +2,17 @@
 
 const db = require('../config/connection');
 const { Project } = require('../models');
-
-const projectData = require('./projectSeeds.json');
+const projectSeeds = require('./projectSeeds.json');
 
 db.once('open', async () => {
-  await Project.deleteMany({});
+  try {
+    await Project.deleteMany({});
+    await Project.create(projectSeeds);
 
-  const projects = await Project.insertMany(projectData);
-
-  console.log('projects seeded!');
-  process.exit(0);
+    console.log('all done!');
+    process.exit(0);
+  } catch (err) {
+    throw err;
+  }
 });
+

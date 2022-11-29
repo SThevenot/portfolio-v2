@@ -2,7 +2,7 @@
     {
         "projectName": "Fit The Mood",
         "projectDescription": "This application is a one-stop website that allows the user to keep track of their emotions and workouts over time.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/signup-screenshot.c3cbc192bd608927ad2f.png",
+        "projectImg": "FitTheMood",
         "projectGithub": "https://github.com/halliemestas/FitTheMood",
         "projectDeploy": "https://limitless-river-86981.herokuapp.com/",
         "projectDate": "October 17th, 2022"
@@ -10,7 +10,7 @@
     {
         "projectName": "HobbySpot",
         "projectDescription": "This project is a blog style application where users can login and post about what they enjoy as hobbies.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/hobbyspot.00bf348815293b4143a6.png",
+        "projectImg": "../../project-images/Screenshot (51).png",
         "projectGithub": "https://github.com/Ehren-Lewis/HobbySpot",
         "projectDeploy": "https://damp-reaches-02576.herokuapp.com/",
         "projectDate": "September 21st, 2022"
@@ -18,7 +18,7 @@
     {
         "projectName": "Brewfinder",
         "projectDescription": "This is a group project that allows the user to type in a city and state to view local breweries and weather data using APIs.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/brewfinder.09ea37b128124e202eac.png",
+        "projectImg": "../../project-images/brewfinder.png",
         "projectGithub": "https://github.com/relero90/brewfinder",
         "projectDeploy": "https://relero90.github.io/brewfinder/",
         "projectDate": "August 22nd, 2022"
@@ -26,21 +26,21 @@
     {
         "projectName": "Note-Taker",
         "projectDescription": "This a functionional web application that allows the user to take notes and save them locally.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/note-taker.4069d4030959d458711d.png",
+        "projectImg": "../../project-images/note-taker.png",
         "projectGithub": "https://github.com/SThevenot/note-taker",
         "projectDate": "September 7th, 2022"
     },
     {
         "projectName": "Employee Tracker",
         "projectDescription": "A mySQL application that will prompt the user if they want to view all of the employees, departments, or roles and if they want to edit them as well.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/employee-tracker.ea6b34074d23d26a0674.png",
+        "projectImg": "../../project-images/employee-tracker.png",
         "projectGithub": "https://github.com/SThevenot/employee-tracker",
         "projectDate": "September 8th, 2022"
     },
     {
         "projectName": "Timed Quiz",
         "projectDescription": "This is a website that will take you through a timed quiz. Time will be deducted if you answer a question incorrectly. At the end you can save your score.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/Screenshot%20(23).faeadc85af48f55e0f86.png",
+        "projectImg": "../../project-images/Screenshot (25).png",
         "projectGithub": "https://github.com/SThevenot/timedQuiz",
         "projectDeploy": "https://sthevenot.github.io/timedQuiz/",
         "projectDate": "August 11th, 2022"
@@ -48,14 +48,14 @@
     {
         "projectName": "README.md Generator",
         "projectDescription": "This is a program that prompts the user with questions about their project and creates a dynamic and concise markdown file.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/readme-generator.c624d1b283e8863dc4c7.png",
+        "projectImg": "../../project-images/readme-generator.png",
         "projectGithub": "https://github.com/SThevenot/readme-generator",
         "projectDate": "October 5th, 2022"
     },
     {
         "projectName": "Random Password Generator",
         "projectDescription": "This website prompts the user for what specifications they'd like for their password and generates a random password based on that. ",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/random-password.3e73efb4779990d26a33.png",
+        "projectImg": "../../project-images/random-password.png",
         "projectGithub": "https://github.com/SThevenot/random-password",
         "projectDeploy": "https://sthevenot.github.io/random-password/",
         "projectDate": "October 5th, 2022"
@@ -63,14 +63,14 @@
     {
         "projectName": "Back-End Social Network",
         "projectDescription": "This is a back-end application that allows the user to create thoughts, reactions, and add friends as well.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/social-network.14a5d12824989b2fa301.png",
+        "projectImg": "../../project-images/social-network.png",
         "projectGithub": "https://github.com/SThevenot/social-network",
         "projectDate": "October 2nd, 2022"
     },
     {
         "projectName": "Work Team Generator",
         "projectDescription": "A website that allows the user to create a team of managers, engineers, and interns in the backend and display them on the frontend.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/team-generator.b7b11a2325dc716cf213.png",
+        "projectImg": "../../project-images/team-generator",
         "projectGithub": "https://github.com/SThevenot/team-generator",
         "projectDeploy": "",
         "projectDate": "September 7th, 2022"
@@ -78,7 +78,7 @@
     {
         "projectName": "Work Day Scheduler",
         "projectDescription": "A functional work scheduler using Boostrap 5 to style accordingly and moment.js for current timestamps.",
-        "projectImg": "https://sthevenot.github.io/portfolio-v2/static/media/work-scheduler.6ba67a63fbe2d0a2eb5a.png",
+        "projectImg": "https://github.com/SThevenot/portfolio-v2/blob/main/client/src/project-images/work-scheduler.png",
         "projectGithub": "https://github.com/SThevenot/work-scheduler",
         "projectDeploy": "",
         "projectDate": "August 15th, 2022"

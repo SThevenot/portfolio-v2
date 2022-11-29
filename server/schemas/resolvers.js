@@ -3,12 +3,10 @@
 const { Project } = require("../models");
 
 const resolvers = {
-  Query: {
-    projects: async (parent, { projectName }) => {
-      const params = projectName ? { projectName } : {};
-      return Project.find(params);
-    },
-  },
-};
-
+    Query: {
+        projects: async () => {
+          return Project.find();
+        },
+    }
+}
 module.exports = resolvers;
