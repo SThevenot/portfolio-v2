@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
-import Footer from "./components/pages/Footer";
+import Footer from "./components/Footer";
 import MyWork from "./components/pages/MyWork";
 import ContactMe from "./components/pages/ContactMe";
 import Resume from "./components/pages/Resume";

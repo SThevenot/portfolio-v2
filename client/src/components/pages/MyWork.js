@@ -13,15 +13,19 @@ const MyWork = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const getProjectList = async () => {
       try {
-        const response = await ProjectService.getProjects();
-        setProjects(response.data);
-      } catch (error) {
-        console.log(error);
+        const res = await getAllProjects();
+        if (!res.ok) {
+          throw new Error('No list of projects');
+        }
+        const projectList = await res.json();
+        setProjects(projectList);
+      } catch (err) {
+        console.error(err);
       }
     };
-    fetchData();
+    getProjectList();
   }, []);
   console.log(projects);
 
@@ -59,3 +63,5 @@ const MyWork = () => {
     </section>
   );
 }
+
+export default MyWork;

@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import "../../styles/Footer.css";
+import "../styles/Footer.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
