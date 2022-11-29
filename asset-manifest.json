@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.626c14f0.css",
-    "main.js": "/portfolio-v2/static/js/main.26eb0280.js",
-    "static/media/Sarah Thevenot's Resume-hackerresume (1).pdf": "/portfolio-v2/static/media/Sarah Thevenot's Resume-hackerresume (1).f85ba3d65875b64747f2.pdf",
-    "index.html": "/portfolio-v2/index.html",
-    "main.626c14f0.css.map": "/portfolio-v2/static/css/main.626c14f0.css.map",
-    "main.26eb0280.js.map": "/portfolio-v2/static/js/main.26eb0280.js.map"
+    "main.css": "/static/css/main.626c14f0.css",
+    "main.js": "/static/js/main.347ece55.js",
+    "static/media/home-screenshot.png": "/static/media/home-screenshot.b921a07464a0584940bc.png",
+    "static/media/team-generator.png": "/static/media/team-generator.ff4f9a994ffcd0a9f7d6.png",
+    "static/media/Sarah Thevenot's Resume-hackerresume (1).pdf": "/static/media/Sarah Thevenot's Resume-hackerresume (1).f85ba3d65875b64747f2.pdf",
+    "index.html": "/index.html",
+    "main.626c14f0.css.map": "/static/css/main.626c14f0.css.map",
+    "main.347ece55.js.map": "/static/js/main.347ece55.js.map"
   },
   "entrypoints": [
     "static/css/main.626c14f0.css",
-    "static/js/main.26eb0280.js"
+    "static/js/main.347ece55.js"
   ]
 }
