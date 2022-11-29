@@ -1,22 +1,14 @@
 /** @format */
 
-const db = require("../models");
-const Project = db.projects;
+const { Project } = require("../models");
 
-// module.exports = {
-//   getProjects(req, res) {
-//     Project.findAll()
-//       .then((projects) => res.json(projects))
-//       .catch((err) => res.status(500).json(err));
-//   },
-// };
+module.exports = {
+  async getAllProjects(req, res) {
+    const allProjects = await Project.find({});
 
-exports.find = (req, res) => {
-  Project.find({})
-    .then((data) => {
-      res.json(data);
-    })
-    .catch((err) => {
-      res.status(500).send({ message: "fail" });
-    });
+    if (!allProjects) {
+      return res.status(400).json({ message: "No projects found" });
+    }
+    res.status(200).json(allProjects);
+  },
 };

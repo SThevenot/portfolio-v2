@@ -10,10 +10,8 @@ import Resume from "./components/pages/Resume";
 import ThemeToggler from "./components/pages/ThemeToggler";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-class App extends Component {
-  render() {
+function App() {
     return (
-      <>
         <Router>
           <NavTabs
             pageWrapId={"page-wrap"}
@@ -21,7 +19,7 @@ class App extends Component {
           />
           <div>
             <Routes>
-              <Route exact path="/portfolio-v2" element={<Home />}></Route>
+              <Route exact path="/" element={<Home />}></Route>
               <Route path="/resume" element={<Resume />}></Route>
               <Route path="/projects" element={<MyWork />}></Route>
               <Route path="/contact" element={<ContactMe />}></Route>
@@ -34,9 +32,7 @@ class App extends Component {
             <Footer />
           </section>
         </Router>
-      </>
     );
   }
-}
 
 export default App;

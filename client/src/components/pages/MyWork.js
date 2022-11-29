@@ -7,9 +7,9 @@ import Card from "react-bootstrap/Card";
 import { FaGithub } from "react-icons/fa";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import ProjectService from "../../services/projectService";
+import { getAllProjects } from "../../utils/api";
 
-export default function MyWork() {
+const MyWork = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {

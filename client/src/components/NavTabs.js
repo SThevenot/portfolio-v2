@@ -38,7 +38,7 @@ class NavTabs extends React.Component {
           <>
             <Navbar className="justify-content-end">
               <Container>
-                <Navbar.Brand ><NavLink to="/portfolio-v2" id="title">Sarah Thevenot</NavLink></Navbar.Brand>
+                <Navbar.Brand ><NavLink to="/" id="title">Sarah Thevenot</NavLink></Navbar.Brand>
                 <Nav>
                   <ul id="list">
                   <NavLink to="/resume" className="links">Resume</NavLink>
