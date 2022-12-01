@@ -1,26 +1,14 @@
 /** @format */
 
-const { Project, Category } = require("../models");
+const { Project } = require("../models");
 
 const resolvers = {
   Query: {
     project: async () => {
       return Project.find();
     },
-    projectsbytech: async (parent, { category, technologies }) => {
-      const params = {};
-
-      if (category) {
-        params.category = category;
-      }
-
-      if (technologies) {
-        params.technologies = {
-          $regex: technologies
-        };
-      }
-
-      return await Project.find(params).populate('category');
+    projectsReact: async (parent, { category }) => {
+      return Project.find({"category" : /React/});
     },
   },
 };
