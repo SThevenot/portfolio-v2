@@ -11,10 +11,17 @@ const typeDefs = gql`
     projectGithub: String!
     projectDeploy: String
     projectDate: String!
+    technologies: [String]
+  }
+  type Category {
+    _id: ID
+    technologies: String
   }
 
   type Query {
-    projects: [Project]!
+    project(id: ID!): [Project]!
+    projectsbytech(category: ID, name: String): [Project]
+
   }
 `;
 

@@ -9,8 +9,6 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { useQuery } from "@apollo/client";
 import { QUERY_PROJECTS } from "../../utils/queries";
-import FitTheMood from "../../project-images/home-screenshot.png"
-import "../../project-images/team-generator.png"
 
 
 const MyWork = () => {
@@ -26,7 +24,7 @@ const MyWork = () => {
             {projects.map((project) => (
               <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
                 <Card key={project.id} className="m-3 cardStyle">
-                  <Card.Img variant="top" src={`${project.projectImg}`}/>
+                  <Card.Img variant="top" src={project.projectImg}/>
                   <Card.Body>
                     <Card.Title>{project.projectName}</Card.Title>
                     <Card.Text>{project.projectDescription}</Card.Text>

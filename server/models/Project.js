@@ -30,6 +30,11 @@ const projectSchema = new Schema({
     type: String,
     required: true,
   },
+  category: {
+    type: String,
+    ref: "Category",
+    required: true,
+  },
 });
 
 const Project = model("Project", projectSchema);
