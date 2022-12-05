@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState, useEffect } from "react";
+import React, {useState} from "react";
 import "../../styles/MyWork.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -8,19 +8,18 @@ import { FaGithub } from "react-icons/fa";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { useQuery } from "@apollo/client";
-import { QUERY_PROJECTS } from "../../utils/queries";
-import { NavLink } from "react-router-dom";
+import { QUERY_PROJECTSREACT } from "../../utils/queries";
+import { useLocation } from "react-router-dom";
 
-export default function MyWork({ setter }) {
-  const { loading, data } = useQuery(QUERY_PROJECTS);
+
+export default function ProjectFilter() {
+  const location = useLocation();
+  const url = location.pathname.split("/projects/").pop();
+  console.log(url);
+  const { loading, data } = useQuery(QUERY_PROJECTSREACT);
   const projects = data?.projects || [];
-  var result;
-  for (var i = 0; i < projects.length; i++) {
-    const techs = projects[i];
-     result = techs.category;
-  }
-  console.log(result)
-  
+
+
   return (
     <section id="myWork">
       {loading ? (
@@ -43,24 +42,6 @@ export default function MyWork({ setter }) {
                     <Button href={project.projectDeploy} target="_blank">
                       Demo
                     </Button>
-                  )}
-                  {result ? (
-                    <div>
-                    {result.map((results) => (
-                      <button>
-                        <NavLink
-                          to={`/projects/${results[i]}`}
-                          className="links"
-                          onClick={(e) => setter(project)}
-                        >
-                          {results[i]}
-                        </NavLink>
-                      </button>
-                    ))}
-                  </div>
-                  ) : (
-                    <button>No tech listed</button>
-                    
                   )}
                 </Card.Body>
               </Card>

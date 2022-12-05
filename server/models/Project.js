@@ -32,7 +32,6 @@ const projectSchema = new Schema({
   },
   category: {
     type: String,
-    ref: "Category",
     required: true,
   },
 });

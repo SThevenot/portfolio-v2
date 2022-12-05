@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import Footer from "./components/Footer";
@@ -9,14 +9,16 @@ import ContactMe from "./components/pages/ContactMe";
 import Resume from "./components/pages/Resume";
 import ThemeToggler from "./components/pages/ThemeToggler";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { ApolloProvider, ApolloClient, InMemoryCache, HttpLink } from "@apollo/client";
+import ProjectFilter from "./components/pages/ProjectFilter";
 
 const client = new ApolloClient({
-  uri: '/graphql',
+  link: new HttpLink({ uri: "http://localhost:3001/graphql"}),
   cache: new InMemoryCache(),
 });
 
 function App() {
+  const [project, setProject] = useState(null);
   return (
     <ApolloProvider client={client}>
       <Router>
@@ -27,6 +29,11 @@ function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
+            <Route
+              exact
+              path="/projects/:id"
+              element={<ProjectFilter project={project}/>}
+            ></Route>
             <Route path="/resume" element={<Resume />}></Route>
             <Route path="/projects" element={<MyWork />}></Route>
             <Route path="/contact" element={<ContactMe />}></Route>

@@ -15,8 +15,8 @@ const typeDefs = gql`
   }
 
   type Query {
-    project(id: ID!): [Project]!
-    projectsReact: [Project]
+    projects: [Project]!
+    projectsReact: [Project]!
   }
 `;
 

@@ -12,14 +12,14 @@ export const QUERY_PROJECTS = gql`
       projectGithub
       projectDeploy
       projectDate
-      technologies
+      category
     }
   }
 `;
 
-export const QUERY_ON_TECH = gql`
-  query getProjectsByReact {
-    projects(technologies: "React") {
+export const QUERY_PROJECTSREACT = gql`
+  query reactProjects {
+    projectsReact{
       _id
       projectName
       projectDescription
@@ -27,7 +27,6 @@ export const QUERY_ON_TECH = gql`
       projectGithub
       projectDeploy
       projectDate
-      technologies
     }
   }
 `;
