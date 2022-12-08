@@ -7,20 +7,32 @@ import Card from "react-bootstrap/Card";
 import { FaGithub } from "react-icons/fa";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { useQuery } from "@apollo/client";
+import { split, useQuery } from "@apollo/client";
 import { QUERY_PROJECTS } from "../../utils/queries";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export default function MyWork({ setter }) {
+export default function MyWork() {
   const { loading, data } = useQuery(QUERY_PROJECTS);
   const projects = data?.projects || [];
-  var result;
-  for (var i = 0; i < projects.length; i++) {
-    const techs = projects[i];
-     result = techs.category;
+  const keys = Object.keys(projects);
+
+  function getObjKey() {
+    var catArr = [];
+    const iterator = catArr.values();
+    for (var i = 0; i < projects.length; i++) {
+      let projectCat = projects[i].category;
+      catArr.push(projectCat).toString();
+      for (const value of iterator) {
+        var splitted = value.split(" ");
+        console.log(splitted.length)
+      }
+      for (var j = 0; j < splitted.length; i++) {
+        return <button>{splitted[i]}</button>
+      }
+    }
+
   }
-  console.log(result)
-  
+
   return (
     <section id="myWork">
       {loading ? (
@@ -29,10 +41,12 @@ export default function MyWork({ setter }) {
         <Row sm="12" md="6" lg="4" xl="3">
           {projects.map((project) => (
             <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
-              <Card key={project.id} className="m-3 cardStyle">
+              <Card key={project._id} className="m-3 cardStyle">
                 <Card.Img variant="top" src={project.projectImg} />
                 <Card.Body>
-                  <Card.Title>{project.projectName}</Card.Title>
+                  <Card.Title>
+                    {project.projectName} - {project._id}
+                  </Card.Title>
                   <Card.Text>{project.projectDescription}</Card.Text>
                   <Button href={project.projectGithub} target="_blank">
                     <FaGithub />
@@ -44,24 +58,15 @@ export default function MyWork({ setter }) {
                       Demo
                     </Button>
                   )}
-                  {result ? (
-                    <div>
-                    {result.map((results) => (
-                      <button>
-                        <NavLink
-                          to={`/projects/${results[i]}`}
-                          className="links"
-                          onClick={(e) => setter(project)}
-                        >
-                          {results[i]}
-                        </NavLink>
-                      </button>
-                    ))}
+                  <div>
+                    <button>
+                      <Link
+                        to={`/projects/${project.category}`}
+                        className="links"
+                      ></Link>
+                      <button>{getObjKey()}</button>;
+                    </button>
                   </div>
-                  ) : (
-                    <button>No tech listed</button>
-                    
-                  )}
                 </Card.Body>
               </Card>
             </Col>

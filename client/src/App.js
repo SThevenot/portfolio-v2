@@ -29,11 +29,6 @@ function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
-            <Route
-              exact
-              path="/projects/:id"
-              element={<ProjectFilter project={project}/>}
-            ></Route>
             <Route path="/resume" element={<Resume />}></Route>
             <Route path="/projects" element={<MyWork />}></Route>
             <Route path="/contact" element={<ContactMe />}></Route>

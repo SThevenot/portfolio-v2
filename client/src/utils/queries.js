@@ -17,16 +17,17 @@ export const QUERY_PROJECTS = gql`
   }
 `;
 
-export const QUERY_PROJECTSREACT = gql`
-  query reactProjects {
-    projectsReact{
-      _id
-      projectName
-      projectDescription
-      projectImg
-      projectGithub
-      projectDeploy
-      projectDate
-    }
-  }
-`;
+// export const QUERY_PROJECTSREACT = gql`
+//   query reactProjects {
+//     projectsReact{
+//       _id
+//       projectName
+//       projectDescription
+//       projectImg
+//       projectGithub
+//       projectDeploy
+//       projectDate
+//       category
+//     }
+//   }
+// `;
