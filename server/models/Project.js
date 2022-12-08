@@ -1,6 +1,6 @@
 /** @format */
 
-const { Schema, model } = require("mongoose");
+const { Schema, model } = require('mongoose');
 
 const projectSchema = new Schema({
   projectName: {
@@ -10,7 +10,7 @@ const projectSchema = new Schema({
   },
   projectDescription: {
     type: String,
-    required: "You need to leave a project!",
+    required: 'You need to leave a project!',
     maxlength: 600,
     trim: true,
   },
@@ -36,6 +36,6 @@ const projectSchema = new Schema({
   },
 });
 
-const Project = model("Project", projectSchema);
+const Project = model('Project', projectSchema);
 
 module.exports = Project;

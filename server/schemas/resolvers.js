@@ -1,14 +1,12 @@
 /** @format */
 
-const { Project } = require("../models");
+const { Project } = require('../models');
 
 const resolvers = {
   Query: {
-    projects: async () => {
-      return Project.find();
-    },
+    projects: async () => Project.find(),
     projectsReact: async (parent, { category }) => {
-      let search = category;
+      const search = category;
       return Project.find({ category: { $regex: search } });
     },
   },

@@ -1,6 +1,6 @@
 /** @format */
 
-const { Schema, model } = require("mongoose");
+const { Schema, model } = require('mongoose');
 
 const categorySchema = new Schema({
   name: {
@@ -21,6 +21,6 @@ const projectsUsedSchema = new Schema({
   },
 });
 
-const Category = model("Category", categorySchema);
+const Category = model('Category', categorySchema);
 
 module.exports = Category;

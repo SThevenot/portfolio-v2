@@ -12,14 +12,14 @@ export default function Footer() {
     <footer>
       <div>
         <button>
-          <a href="https://github.com/SThevenot" target="_blank">
+          <a href="https://github.com/SThevenot" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
         </button>
         <button>
           <a
             href="https://www.linkedin.com/in/sarah-thevenot-a91702183/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <FaLinkedin />
           </a>
@@ -27,7 +27,7 @@ export default function Footer() {
         <button>
           <a
             href="https://discordapp.com/users/MoreThanAwkward456#0144"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <i>
               <FaDiscord />
@@ -37,7 +37,7 @@ export default function Footer() {
         <button>
           <a
             href="https://open.spotify.com/user/connfetti007?si=b4e9d125354c4ec2"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <FaSpotify />
           </a>

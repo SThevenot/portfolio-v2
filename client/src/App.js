@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { Component, useState } from "react";
+import React from "react";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import Footer from "./components/Footer";
@@ -18,7 +18,6 @@ const client = new ApolloClient({
 });
 
 function App() {
-  const [project, setProject] = useState(null);
   return (
     <ApolloProvider client={client}>
       <Router>
@@ -32,6 +31,7 @@ function App() {
             <Route path="/resume" element={<Resume />}></Route>
             <Route path="/projects" element={<MyWork />}></Route>
             <Route path="/contact" element={<ContactMe />}></Route>
+            <Route path="/projects/:id" element={<ProjectFilter />}></Route>
           </Routes>
         </div>
         <section id="themeToggler">

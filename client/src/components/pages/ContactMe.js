@@ -3,7 +3,6 @@
 import React, { useRef } from "react";
 import "../../styles/ContactMe.css";
 import emailjs from "emailjs-com";
-import { Alert } from "react-bootstrap";
 
 function ContactMe() {
   const form = useRef();
