@@ -6,7 +6,7 @@
     "projectGithub": "https://github.com/halliemestas/FitTheMood",
     "projectDeploy": "https://limitless-river-86981.herokuapp.com/",
     "projectDate": "October 17th, 2022",
-    "category": "React CSS Javascript Nodejs Expressjs MongoDB Bootstrap GraphQL Apollo Mongoose JSONWebToken  bcrypt"
+    "category": ["React", "CSS", "Javascript", "Nodejs", "Expressjs", "MongoDB", "Bootstrap", "GraphQL", "Apollo", "Mongoose", "JSONWebToken", "bcrypt"]
   },
   {
     "projectName": "HobbySpot",
@@ -15,7 +15,7 @@
     "projectGithub": "https://github.com/Ehren-Lewis/HobbySpot",
     "projectDeploy": "https://damp-reaches-02576.herokuapp.com/",
     "projectDate": "September 21st, 2022",
-    "category": "Handlebars CSS Javascript dotenv Bootstrap Sequelize mySQL Expressjs bcrypt axios JSONWebToken"
+    "category": ["Handlebars", "CSS", "Javascript", "dotenv", "Bootstrap", "Sequelize", "mySQL", "Expressjs", "bcrypt", "axios", "JSONWebToken"]
   },
   {
     "projectName": "Brewfinder",
@@ -24,7 +24,7 @@
     "projectGithub": "https://github.com/relero90/brewfinder",
     "projectDeploy": "https://relero90.github.io/brewfinder/",
     "projectDate": "August 22nd, 2022",
-    "category": "HTML CSS Javascript Web API Bootstrap"
+    "category": ["HTML", "CSS", "Javascript", "Web API", "Bootstrap"]
   },
   {
     "projectName": "Note-Taker",
@@ -32,7 +32,7 @@
     "projectImg": "https://github.com/SThevenot/portfolio-v2/blob/main/client/src/project-images/note-taker.png?raw=true",
     "projectGithub": "https://github.com/SThevenot/note-taker",
     "projectDate": "September 7th, 2022",
-    "category": "HTML CSS Javascript Nodejs Expressjs Bootstrap"
+    "category": ["HTML", "CSS", "Javascript", "Nodejs", "Expressjs", "Bootstrap"]
   },
   {
     "projectName": "Employee Tracker",
@@ -40,7 +40,7 @@
     "projectImg": "https://github.com/SThevenot/portfolio-v2/blob/main/client/src/project-images/employee-tracker.png?raw=true",
     "projectGithub": "https://github.com/SThevenot/employee-tracker",
     "projectDate": "September 8th, 2022",
-    "category": "mySQL Javascript Nodejs Sequelize Inquirer"
+    "category": ["mySQL", "Javascript", "Nodejs", "Sequelize", "Inquirer"]
   },
   {
     "projectName": "Timed Quiz",
@@ -49,7 +49,7 @@
     "projectGithub": "https://github.com/SThevenot/timedQuiz",
     "projectDeploy": "https://sthevenot.github.io/timedQuiz/",
     "projectDate": "August 11th, 2022",
-    "category": "HTML CSS Javascript"
+    "category": ["HTML", "CSS", "Javascript"]
   },
   {
     "projectName": "README.md Generator",
@@ -57,7 +57,7 @@
     "projectImg": "https://github.com/SThevenot/portfolio-v2/blob/main/client/src/project-images/readme-generator.png?raw=true",
     "projectGithub": "https://github.com/SThevenot/readme-generator",
     "projectDate": "October 5th, 2022",
-    "category": "Inquirer HTML CSS Javascript"
+    "category": ["Inquirer", "HTML", "CSS", "Javascript"]
   },
   {
     "projectName": "Random Password Generator",
@@ -66,7 +66,7 @@
     "projectGithub": "https://github.com/SThevenot/random-password",
     "projectDeploy": "https://sthevenot.github.io/random-password/",
     "projectDate": "October 5th, 2022",
-    "category": "HTML CSS Javascript"
+    "category": ["HTML", "CSS", "Javascript"]
   },
   {
     "projectName": "Back-End Social Network",
@@ -74,7 +74,7 @@
     "projectImg": "https://github.com/SThevenot/portfolio-v2/blob/main/client/src/project-images/social-network.png?raw=true",
     "projectGithub": "https://github.com/SThevenot/social-network",
     "projectDate": "October 2nd, 2022",
-    "category": "Expressjs Mongoose MongoDB Nodejs"
+    "category": ["Expressjs", "Mongoose", "MongoDB", "Nodejs"]
   },
   {
     "projectName": "Work Team Generator",
@@ -83,7 +83,7 @@
     "projectGithub": "https://github.com/SThevenot/team-generator",
     "projectDeploy": "",
     "projectDate": "September 7th, 2022",
-    "category": "HTML Jest Javascript Inquirer Bootstrap Nodejs"
+    "category": ["HTML", "Jest", "Javascript", "Inquirer", "Bootstrap", "Nodejs"]
   },
   {
     "projectName": "Work Day Scheduler",
@@ -92,6 +92,6 @@
     "projectGithub": "https://github.com/SThevenot/work-scheduler",
     "projectDeploy": "",
     "projectDate": "August 15th, 2022",
-    "category": "HTML Javascript jQuery Bootstrap moment.js"
+    "category": ["HTML", "Javascript", "jQuery", "Bootstrap", "moment.js"]
   }
 ]

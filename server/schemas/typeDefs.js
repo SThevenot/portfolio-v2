@@ -11,7 +11,7 @@ const typeDefs = gql`
     projectGithub: String!
     projectDeploy: String
     projectDate: String!
-    category: String!
+    category: [String]!
   }
 
   type Query {

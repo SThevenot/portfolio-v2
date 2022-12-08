@@ -1,37 +1,29 @@
 /** @format */
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../../styles/MyWork.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { FaGithub } from "react-icons/fa";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { split, useQuery } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 import { QUERY_PROJECTS } from "../../utils/queries";
 import { Link } from "react-router-dom";
 
 export default function MyWork() {
   const { loading, data } = useQuery(QUERY_PROJECTS);
   const projects = data?.projects || [];
-  const keys = Object.keys(projects);
 
-  function getObjKey() {
-    var catArr = [];
-    const iterator = catArr.values();
-    for (var i = 0; i < projects.length; i++) {
-      let projectCat = projects[i].category;
-      catArr.push(projectCat).toString();
-      for (const value of iterator) {
-        var splitted = value.split(" ");
-        console.log(splitted.length)
-      }
-      for (var j = 0; j < splitted.length; i++) {
-        return <button>{splitted[i]}</button>
-      }
+  console.log(projects.length);
+  function iterateCategories() {
+    let categories;
+    for (let i = 0; i < projects.length; i++) {
+      categories += projects[i].category;
     }
-
+    return categories;
   }
+  console.log(iterateCategories());
 
   return (
     <section id="myWork">
@@ -59,13 +51,13 @@ export default function MyWork() {
                     </Button>
                   )}
                   <div>
-                    <button>
+                    {project.category.map((tech) => (
                       <Link
-                        to={`/projects/${project.category}`}
-                        className="links"
-                      ></Link>
-                      <button>{getObjKey()}</button>;
-                    </button>
+                      to={`/projects/${tech}`}
+                      className="links"
+                    >{tech}</Link>
+                    ))}
+                    
                   </div>
                 </Card.Body>
               </Card>
