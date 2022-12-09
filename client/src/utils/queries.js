@@ -17,9 +17,9 @@ export const QUERY_PROJECTS = gql`
   }
 `;
 
-export const QUERY_PROJECTSREACT = gql`
-  query reactProjects {
-    projectsReact{
+export const QUERY_FILTER = gql`
+  query getFilterProjects($category: String!) {
+    filterProjects(category: $category){
       _id
       projectName
       projectDescription

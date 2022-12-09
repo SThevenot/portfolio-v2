@@ -1,51 +1,45 @@
 /** @format */
 
-import React  from "react";
+import React from "react";
 import "../../styles/MyWork.css";
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import { FaGithub } from "react-icons/fa";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import { useQuery } from "@apollo/client";
-import { QUERY_PROJECTSREACT } from "../../utils/queries";
-// import { useLocation } from "react-router-dom";
-//for url path
+import { QUERY_FILTER } from "../../utils/queries";
+import { useLocation, useParams } from "react-router-dom";
+import { QUERY_PROJECTS } from "../../utils/queries";
+import { filterData, SearchType } from "filter-data";
 
-export default function ProjectFilter() {
-  const { loading, data } = useQuery(QUERY_PROJECTSREACT);
+//I need to figure out how to take currentCategory and assign it to the query filter as the regex
+
+const ProjectFilter = () => {
+  const { loading, data } = useQuery(QUERY_PROJECTS);
   const projects = data?.projects || [];
-  console.log(projects);
+  let location = useLocation();
+
+  const searchConditions = [
+    {
+      key: "category",
+      value: grabCategory(),
+      type: SearchType.EQ,
+    },
+  ];
+
+  const result = filterData(projects, searchConditions);
+  console.log(result);
+
+  function grabCategory() {
+    const values = Object.values(location);
+    const currentCateory = values[0].split("/").pop();
+    return currentCateory;
+  }
 
   return (
     <section id="myWork">
-      {loading ? (
-        <div className="mt-4">loading...</div>
-      ) : (
-        <Row sm="12" md="6" lg="4" xl="3">
-          {projects.map((project) => (
-            <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
-              <Card key={project.id} className="m-3 cardStyle">
-                <Card.Img variant="top" src={project.projectImg} />
-                <Card.Body>
-                  <Card.Title>{project.projectName}</Card.Title>
-                  <Card.Text>{project.projectDescription}</Card.Text>
-                  <Button href={project.projectGithub} target="_blank">
-                    <FaGithub />
-                  </Button>
-                  {!project.projectDeploy ? (
-                    <Button className="noDemoBtn"> No Demo Available</Button>
-                  ) : (
-                    <Button href={project.projectDeploy} target="_blank">
-                      Demo
-                    </Button>
-                  )}
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-      )}
+      {result.map((cat) => (
+        <div>{cat.projectName}</div>
+      ))}
     </section>
   );
-}
+};
+
+export default ProjectFilter;

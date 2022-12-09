@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/MyWork.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -10,8 +10,19 @@ import Row from "react-bootstrap/Row";
 import { useQuery } from "@apollo/client";
 import { QUERY_PROJECTS } from "../../utils/queries";
 import { Link } from "react-router-dom";
+import ProjectFilter from "./ProjectFilter";
 
 export default function MyWork() {
+  const [inputs, setInputs] = useState({
+    searchCategory: "",
+  });
+
+  const handleChange = event => {
+    setInputs({
+      ...inputs,
+      [event.target.name]: event.target.value
+    });
+  };
   const { loading, data } = useQuery(QUERY_PROJECTS);
   const projects = data?.projects || [];
 
@@ -37,7 +48,7 @@ export default function MyWork() {
                 <Card.Img variant="top" src={project.projectImg} />
                 <Card.Body>
                   <Card.Title>
-                    {project.projectName} - {project._id}
+                    {project.projectName}
                   </Card.Title>
                   <Card.Text>{project.projectDescription}</Card.Text>
                   <Button href={project.projectGithub} target="_blank">
@@ -52,12 +63,8 @@ export default function MyWork() {
                   )}
                   <div>
                     {project.category.map((tech) => (
-                      <Link
-                      to={`/projects/${tech}`}
-                      className="links"
-                    >{tech}</Link>
+                      <Link to={`/projects/${tech}`} name="searchCategory" onChange={handleChange}> {tech}</Link>
                     ))}
-                    
                   </div>
                 </Card.Body>
               </Card>

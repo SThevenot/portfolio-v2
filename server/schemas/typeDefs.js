@@ -16,7 +16,7 @@ const typeDefs = gql`
 
   type Query {
     projects: [Project]!
-    projectsReact: [Project]!
+    filterProjects: [Project]!
   }
 `;
 

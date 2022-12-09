@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "@apollo/client": "^3.7.1",
+        "filter-data": "^0.2.0",
         "graphql": "^16.6.0"
     }
 }
