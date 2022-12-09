@@ -1,0 +1,27 @@
+[
+  {
+    "frontendSkills": [
+      "React",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "npm",
+      "GraphQL",
+      "Jest",
+      "PWA",
+      "Handlebars",
+      "axios",
+      "jQuery"
+    ],
+    "backendSkills": [
+      "Nodejs",
+      "Expressjs",
+      "MongoDB",
+      "Mongoose",
+      "Apollo",
+      "mySQL",
+      "Git"
+    ]
+  }
+]

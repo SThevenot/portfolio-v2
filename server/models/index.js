@@ -1,6 +1,6 @@
 /** @format */
 
-const Project = require('./Project');
-// const Category = require("./Category");
+const Project = require("./Project");
+const Skill = require("./Skills");
 
-module.exports = { Project };
+module.exports = { Project, Skill };

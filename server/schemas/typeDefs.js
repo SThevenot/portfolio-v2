@@ -14,9 +14,14 @@ const typeDefs = gql`
     category: [String]!
   }
 
+  type Skill {
+    frontendSkills: [String]!
+    backendSkills: [String]!
+  }
+
   type Query {
     projects: [Project]!
-    filterProjects: [Project]!
+    skills: [Skill]!
   }
 `;
 
