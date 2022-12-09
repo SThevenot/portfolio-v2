@@ -31,6 +31,8 @@ Col {
   border: 2px solid var(--dark3);
   color: var(--light3);
   background-color: var(--dark2);
+  margin: 12px;
+  border-radius: 5px;
 }
 
 #myWork a:hover {
@@ -51,6 +53,7 @@ Col {
 
 .cardStyle {
   background-color: var(--med1) !important;
+  height: 95% !important;
 }
 
 div.card-title {
@@ -59,13 +62,8 @@ div.card-title {
     -1px 0 0 var(--dark1);
 }
 
-#myWork a {
-  margin: 12px;
-}
-
 .cardStyle:hover {
   box-shadow: 8px 4px 5px var(--dark1);
-
 }
 
 .noDemoBtn {
@@ -73,4 +71,36 @@ div.card-title {
   color: var(--light3) !important;
   background-color: var(--dark2) !important;
   margin: 12px;
+}
+
+.techBtnDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#links {
+  border: 2px solid var(--dark3) !important;
+  color: var(--light3) !important;
+  background-color: var(--dark2) !important;
+  margin: 6px !important;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#filterButtonsTop {
+  display: flex;
+  margin: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 10px;
+  background-color: var(--opaqueDark1);
+  border-radius: 5px;
+  border: 2px solid var(--dark3);
+}
+
+#filterHeader {
+  text-align: center;
 }
