@@ -4,8 +4,12 @@ import React from "react";
 import "../../styles/Resume.css";
 import myResume from "../../files/Sarah Thevenot's Resume-hackerresume (1).pdf";
 import { Table, Row, Col } from "react-bootstrap";
+import { useQuery } from "@apollo/client";
+import { QUERY_SKILLS } from "../../utils/queries";
 
 export default function Resume() {
+  const { loading, data } = useQuery(QUERY_SKILLS);
+  const skills = data?.skills || [];
   return (
     <div id="resume">
       <div>

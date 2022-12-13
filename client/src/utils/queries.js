@@ -17,17 +17,12 @@ export const QUERY_PROJECTS = gql`
   }
 `;
 
-export const QUERY_FILTER = gql`
-  query getFilterProjects($category: String!) {
-    filterProjects(category: $category){
+export const QUERY_SKILLS = gql`
+  query allSkills {
+    skills{
       _id
-      projectName
-      projectDescription
-      projectImg
-      projectGithub
-      projectDeploy
-      projectDate
-      category
+      frontendSkills
+      backendSkills
     }
   }
 `;
