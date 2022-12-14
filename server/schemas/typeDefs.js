@@ -15,6 +15,7 @@ const typeDefs = gql`
   }
 
   type Skill {
+    _id: ID
     frontendSkills: [String]!
     backendSkills: [String]!
   }

@@ -10,7 +10,7 @@ import Row from "react-bootstrap/Row";
 import { useQuery } from "@apollo/client";
 import { QUERY_PROJECTS } from "../../utils/queries";
 import { Link } from "react-router-dom";
-import CardGroup from "react-bootstrap/CardGroup"
+import CardGroup from "react-bootstrap/CardGroup";
 
 export default function MyWork() {
   const [inputs, setInputs] = useState({
@@ -26,16 +26,6 @@ export default function MyWork() {
   const { loading, data } = useQuery(QUERY_PROJECTS);
   const projects = data?.projects || [];
 
-  console.log(projects.length);
-  function iterateCategories() {
-    let categories;
-    for (let i = 0; i < projects.length; i++) {
-      categories += projects[i].category;
-    }
-    return categories;
-  }
-  console.log(iterateCategories());
-
   function displayCategories() {
     const arr = [];
     var next;
@@ -43,26 +33,30 @@ export default function MyWork() {
       const categories = project.category;
       arr.push(categories);
       next = arr.toString().split(",");
-      return next;
+      console.log(next);
     });
     var findDuplicate = (next) =>
       next.filter((item, index) => next.indexOf(item) === index);
     const filtered = findDuplicate(next);
     return filtered;
   }
-
+  displayCategories();
   const displayCategoryBtn = displayCategories();
 
   return (
     <section id="myWork">
       <div id="filterHeader">
-          <h2>Please select a filter</h2>
-          <div id="filterButtonsTop">
-        {displayCategoryBtn.map((technology) => (
-          <Link id="links" to={`/projects/${technology}`} name="searchCategory">
-            {technology}
-          </Link>
-        ))}
+        <h2>Please select a filter</h2>
+        <div id="filterButtonsTop">
+          {displayCategoryBtn.map((technology) => (
+            <Link
+              id="links"
+              to={`/projects/${technology}`}
+              name="searchCategory"
+            >
+              {technology}
+            </Link>
+          ))}
         </div>
       </div>
       {loading ? (
@@ -70,8 +64,7 @@ export default function MyWork() {
       ) : (
         <Row sm="12" md="6" lg="4" xl="3">
           {projects.map((project) => (
-            // <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
-              <CardGroup>
+            <Col sm="12" md="6" lg="4" xl="3" className="cardShadow">
               <Card key={project._id} className="m-3  cardStyle">
                 <Card.Img variant="top" src={project.projectImg} />
                 <Card.Body>
@@ -102,8 +95,7 @@ export default function MyWork() {
                   </div>
                 </Card.Body>
               </Card>
-              </CardGroup>
-            // </Col>
+            </Col>
           ))}
         </Row>
       )}

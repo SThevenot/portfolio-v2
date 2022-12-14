@@ -1,6 +1,6 @@
 /** @format */
 
-const { Project } = require('../models');
+const { Project, Skill } = require('../models');
 
 const resolvers = {
   Query: {

@@ -10,6 +10,7 @@ import { QUERY_SKILLS } from "../../utils/queries";
 export default function Resume() {
   const { loading, data } = useQuery(QUERY_SKILLS);
   const skills = data?.skills || [];
+  console.log(skills);
   return (
     <div id="resume">
       <div>
