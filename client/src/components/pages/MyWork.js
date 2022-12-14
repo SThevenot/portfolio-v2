@@ -10,7 +10,6 @@ import Row from "react-bootstrap/Row";
 import { useQuery } from "@apollo/client";
 import { QUERY_PROJECTS } from "../../utils/queries";
 import { Link } from "react-router-dom";
-import CardGroup from "react-bootstrap/CardGroup";
 
 export default function MyWork() {
   const [inputs, setInputs] = useState({
@@ -25,7 +24,7 @@ export default function MyWork() {
   };
   const { loading, data } = useQuery(QUERY_PROJECTS);
   const projects = data?.projects || [];
-
+  console.log(projects);
   function displayCategories() {
     const arr = [];
     var next;

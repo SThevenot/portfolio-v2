@@ -39,40 +39,30 @@ export default function Resume() {
           </div>
           <div id="skills">
             <h1 className="skillsH1">Skills</h1>
-            <Table striped bordered hover className="table mt-0">
-              <thead>
-                <tr>
-                  <th>Front-end</th>
-                  <th>Back-end</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>HTML</td>
-                  <td>mySQL</td>
-                </tr>
-                <tr>
-                  <td>CSS</td>
-                  <td>Node.js</td>
-                </tr>
-                <tr>
-                  <td>React.js</td>
-                  <td>Express.js</td>
-                </tr>
-                <tr>
-                  <td>Javascript</td>
-                  <td>MongoDB</td>
-                </tr>
-                <tr>
-                  <td>NPM</td>
-                  <td>PWA</td>
-                </tr>
-                <tr>
-                  <td>Bootstrap</td>
-                  <td>GraphQL</td>
-                </tr>
-              </tbody>
-            </Table>
+            {loading ? (
+              <div className="mt-4">loading...</div>
+            ) : (
+              <>
+                {skills.map((skill) => (
+                  <div id="skillsDiv">
+                    <Col sm="12" md="6" lg="4" xl="3" id="skillsCol">
+                    <h3 id="skillsSubHeading">front-end</h3>
+                    <hr id="skillsHrLeft"></hr>
+                    {skill.frontendSkills.map((frontend) => (
+                      <h6 id="skillBox">{frontend}</h6>
+                    ))}
+                    </Col>
+                    <Col sm="12" md="6" lg="4" xl="3" id="skillsCol">
+                    <h3 id="skillsSubHeading">back-end</h3>
+                    <hr id="skillsHrRight"></hr>
+                    {skill.backendSkills.map((backend) => (
+                      <h6 id="skillBox">{backend}</h6>
+                    ))}
+                    </Col>
+                  </div>
+                ))}
+              </>
+            )}
           </div>
           <div id="certificates">
             <dl>
@@ -82,7 +72,7 @@ export default function Resume() {
               <dd>
                 <span>Complete</span>
               </dd>
-              <dt>The Complete Web Development Course</dt>
+              {/* <dt>The Complete Web Development Course</dt>
               <dd>The App Brewery, Angela Yu</dd>
               <dd>
                 In Progress <span>(50%)</span>
@@ -91,7 +81,7 @@ export default function Resume() {
               <dd>The App Brewery, Philipp Muellauer</dd>
               <dd>
                 In Progress<span> (10%)</span>
-              </dd>
+              </dd> */}
             </dl>
           </div>
         </Col>

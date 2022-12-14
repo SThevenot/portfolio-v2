@@ -36,30 +36,12 @@
   color: var(--light2);
 }
 
-dl {
-  margin-left: 30px;
-  font-size: larger;
-  text-align: left;
-}
-
-.table {
-  background-color: var(--light3);
-  width: 80% !important;
-  margin: auto 0px;
-}
-
 #skills {
   display: flex;
   justify-content: center;
-  margin: 50px auto;
+  margin: 50px 0px;
   flex-direction: column;
   align-items: center;
-}
-
-th,
-td {
-  font-size: large;
-  color: var(--dark2) !important;
 }
 
 .horizontal {
@@ -93,12 +75,6 @@ h5 {
   width: 50% !important;
 }
 
-.skillsH1 {
-  text-align: left;
-  margin: 30px;
-  padding: 0px !important;
-}
-
 #education,
 #experience,
 #skills,
@@ -120,4 +96,44 @@ h5 {
 #horizontalCol {
   display: flex;
   justify-content: center;
+}
+
+#skillsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80% !important;
+  margin-bottom: 20px;
+  border: var(--dark1) 3px solid;
+  border-radius: 10px;
+  background-color: var(--dark2);
+}
+
+#skillsSubHeading {
+  padding: 10px;
+}
+
+#skillsHrLeft,
+#skillsHrRight {
+  height: 4px;
+  margin-bottom: 20px;
+}
+
+#skillsHrLeft {
+  margin-left: 12px;
+}
+
+#skillsHrRight {
+  margin-right: 12px;
+}
+
+#skillBox {
+  background-color: var(--light3);
+  color: var(--dark1);
+  padding: 2px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#skillBox:hover {
+  background-color: var(--light2);
 }
