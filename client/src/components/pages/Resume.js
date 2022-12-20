@@ -46,14 +46,14 @@ export default function Resume() {
                 {skills.map((skill) => (
                   <div id="skillsDiv">
                     <Col sm="12" md="6" lg="4" xl="3" id="skillsCol">
-                    <h3 id="skillsSubHeading">front-end</h3>
+                    <h3 id="skillsSubHeading">frontend</h3>
                     <hr id="skillsHrLeft"></hr>
                     {skill.frontendSkills.map((frontend) => (
                       <h6 id="skillBox">{frontend}</h6>
                     ))}
                     </Col>
                     <Col sm="12" md="6" lg="4" xl="3" id="skillsCol">
-                    <h3 id="skillsSubHeading">back-end</h3>
+                    <h3 id="skillsSubHeading">backend</h3>
                     <hr id="skillsHrRight"></hr>
                     {skill.backendSkills.map((backend) => (
                       <h6 id="skillBox">{backend}</h6>

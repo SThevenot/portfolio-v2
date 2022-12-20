@@ -101,12 +101,14 @@ h5 {
 #skillsDiv {
   display: flex;
   flex-wrap: wrap;
-  width: 80% !important;
-  margin-bottom: 20px;
+  width: 98%;
   border: var(--dark1) 3px solid;
   border-radius: 10px;
   background-color: var(--dark2);
+  justify-content: space-around;
+  margin: 15px !important;
 }
+
 
 #skillsSubHeading {
   padding: 10px;
@@ -129,7 +131,7 @@ h5 {
 #skillBox {
   background-color: var(--light3);
   color: var(--dark1);
-  padding: 2px;
+  padding: 5px;
   margin: 10px;
   border-radius: 10px;
 }
