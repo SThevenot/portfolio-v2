@@ -3,7 +3,7 @@
 import { gql } from "@apollo/client";
 
 export const QUERY_PROJECTS = gql`
-  query allprojects {
+  query queryProjects {
     projects {
       _id
       projectName
@@ -18,7 +18,7 @@ export const QUERY_PROJECTS = gql`
 `;
 
 export const QUERY_SKILLS = gql`
-  query allskills {
+  query querySkills {
     skills {
       _id
       frontendSkills

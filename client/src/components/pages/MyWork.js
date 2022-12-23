@@ -44,20 +44,25 @@ export default function MyWork() {
 
   return (
     <section id="myWork">
-      <div id="filterHeader">
-        <h2>Please select a filter</h2>
-        <div id="filterButtonsTop">
-          {displayCategoryBtn.map((technology) => (
-            <Link
-              id="links"
-              to={`/projects/${technology}`}
-              name="searchCategory"
-            >
-              {technology}
-            </Link>
-          ))}
+      {loading ? (
+        <div className="mt-4">loading...</div>
+      ) : (
+        <div id="filterHeader">
+          <h2>Please select a filter</h2>
+
+          <div id="filterButtonsTop">
+            {displayCategoryBtn.map((technology) => (
+              <Link
+                id="links"
+                to={`/projects/${technology}`}
+                name="searchCategory"
+              >
+                {technology}
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
       {loading ? (
         <div className="mt-4">loading...</div>
       ) : (
