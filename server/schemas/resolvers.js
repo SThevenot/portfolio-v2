@@ -1,11 +1,13 @@
 /** @format */
 
-const { Project, Skill } = require('../models');
+const { Project } = require("../models");
 
 const resolvers = {
   Query: {
-    projects: async () => Project.find(),
-    skills: async () => Skill.find(),
+    projects: async () => {
+      return Project.find();
+    },
   },
 };
+
 module.exports = resolvers;

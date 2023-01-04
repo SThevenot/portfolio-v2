@@ -28,10 +28,10 @@ function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
-            <Route path="/resume" element={<Resume />}></Route>
+            {/* <Route path="/resume" element={<Resume />}></Route> */}
             <Route path="/projects" element={<MyWork />}></Route>
             <Route path="/contact" element={<ContactMe />}></Route>
-            <Route path="/projects/:id" element={<ProjectFilter />}></Route>
+            {/* <Route path="/projects/:id" element={<ProjectFilter />}></Route> */}
           </Routes>
         </div>
         <section id="themeToggler">
