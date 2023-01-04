@@ -16,38 +16,39 @@ export default function MyWork() {
   const projects = data?.projects || [];
   console.log(projects);
 
+  function displayCategories() {
+    const arr = [];
+    var next;
+    projects.map((project) => {
+      const categories = project.category;
+      arr.push(categories);
+      next = arr.toString().split(",");
+      console.log(next);
+    });
+    var findDuplicate = (next) =>
+      next.filter((item, index) => next.indexOf(item) === index);
+    const filtered = findDuplicate(next);
+    return filtered;
+  }
 
-  // const [inputs, setInputs] = useState({
-  //   searchCategory: "",
-  // });
+  displayCategories();
+  const displayCategoryBtn = displayCategories();
 
-  // const handleChange = (event) => {
-  //   setInputs({
-  //     ...inputs,
-  //     [event.target.name]: event.target.value,
-  //   });
-  // };
 
-  // function displayCategories() {
-  //   const arr = [];
-  //   var next;
-  //   projects.map((project) => {
-  //     const categories = project.category;
-  //     arr.push(categories);
-  //     next = arr.toString().split(",");
-  //     console.log(next);
-  //   });
-  //   var findDuplicate = (next) =>
-  //     next.filter((item, index) => next.indexOf(item) === index);
-  //   const filtered = findDuplicate(next);
-  //   return filtered;
-  // }
-  // displayCategories();
-  // const displayCategoryBtn = displayCategories();
+  const [inputs, setInputs] = useState({
+    searchCategory: "",
+  });
+
+  const handleChange = (event) => {
+    setInputs({
+      ...inputs,
+      [event.target.name]: event.target.value,
+    });
+  };
 
   return (
     <section id="myWork">
-      {/* {loading ? (
+      {loading ? (
         <div className="mt-4">loading...</div>
       ) : (
         <div id="filterHeader">
@@ -65,7 +66,7 @@ export default function MyWork() {
             ))}
           </div>
         </div>
-      )} */}
+      )}
       {loading ? (
         <div className="mt-4">loading...</div>
       ) : (
@@ -89,7 +90,7 @@ export default function MyWork() {
                   )}
                   <hr></hr>
                   <div className="techBtnDiv">
-                    {/* {project.category.map((tech) => (
+                    {project.category.map((tech) => (
                       <Link
                         to={`/projects/${tech}`}
                         name="searchCategory"
@@ -98,7 +99,7 @@ export default function MyWork() {
                       >
                         {tech}
                       </Link>
-                    ))} */}
+                    ))}
                   </div>
                 </Card.Body>
               </Card>

@@ -1,7 +1,7 @@
 /** @format */
 const { Schema, model } = require('mongoose');
 
-const SkillsSchema = new Schema({
+const SkillSchema = new Schema({
   frontendSkills: {
     type: [String],
     required: true,
@@ -12,6 +12,6 @@ const SkillsSchema = new Schema({
   },
 });
 
-const Skill = model('Skill', SkillsSchema);
+const Skill = model('Skill', SkillSchema);
 
 module.exports = Skill;
